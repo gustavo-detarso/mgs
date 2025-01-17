@@ -1,0 +1,7 @@
+---
+title: "conflitos"
+author: "Gustavo de Tarso"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
