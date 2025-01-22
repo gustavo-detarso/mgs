@@ -1,0 +1,67 @@
+@startmindmap
+skinparam defaultTextAlignment center
+* Fundamentos da Negociação 
+** <color:blue> Definição
+*** <color:blue> Duas ou mais partes
+*** <color:blue> Interesses comuns e antagônicos
+** <color:blue> Tipos
+*** <color:blue> Integrativo
+**** <color:green> Bolo crescer
+*** <color:blue> Distributivo
+**** <color:green> Dividir bolo
+** <color:blue> Interesses
+*** <color:orange> Objetivos
+*** <color:orange> Pontos em comum
+** <color:blue> Poder
+*** <color:green> Meio
+**** <color:blue> Moral
+***** <color:orange> "Regra do jogo"
+**** <color:blue> Estética
+***** <color:orange> Padrões
+**** <color:blue> Eficácia
+***** <color:orange> Resultados
+**** <color:orange> Alternativas (MACNA)
+** <color:orange> Informação
+*** <color:blue> Rotina
+*** <color:blue> Preliminar
+** <color:blue> Tempo
+*** <color:blue> Fechamento
+*** <color:blue> Oferta
+*** <color:orange> Vantagem/Desvantagem
+** <color:blue> Ganhos mútuos
+*** <color:orange> Interesses comuns
+**** <color:yellow> Perguntas de identificação
+*** <color:orange> Harmonizar Interesses diferentes
+**** <color:green> Melhor resultado
+***** <color:orange> Franqueza
+***** <color:orange> Criatividade
+** <color:blue> ZOPA
+*** <color:yellow> MACNA (alternativas)
+**** <color:blue> Preço mínimo do vendedor
+**** <color:blue> Preço máximo do comprador
+** <color:blue> Criatividade
+*** <color:yellow> Fase de planejamento
+*** <color:orange> Métodos ágeis
+**** <color:orange> Brainstorming
+***** <color:blue> Antes
+****** <color:blue> Objetividade
+****** <color:blue> Multiplicidade
+****** <color:blue> Ambiente descontraído
+****** <color:blue> Facilitador
+******* <color:blue> Técnica
+******* <color:blue> Habilidade
+******* <color:blue> Empático a equipe
+***** <color:blue> Durante
+****** <color:blue> Sem críticas
+****** <color:blue> Incentivar idéias
+****** <color:orange> Registro de TODAS idéias
+***** <color:blue> Após
+****** <color:blue> Filtrar
+****** <color:blue> Aprimorar
+****** <color:blue> Prazo
+**** <color:orange> SCRUM
+*** <color:blue> Ética
+**** <color:blue> Impacto nas decisões
+***** <color:orange> Nunca minta
+***** <color:green> Nunca causar danos
+@endmindmap
