@@ -1,5 +1,13 @@
+<plantuml>
 @startmindmap
-skinparam defaultTextAlignment center
+<style>
+mindmapDiagram {
+  BackgroundColor black
+  arrowColor white
+  lineColor white
+  fontColor white
+}
+</style>
 * Fundamentos da Negociação 
 ** <color:blue> Definição
 *** <color:blue> Duas ou mais partes
@@ -65,3 +73,4 @@ skinparam defaultTextAlignment center
 ***** <color:orange> Nunca minta
 ***** <color:green> Nunca causar danos
 @endmindmap
+</plantuml>

@@ -1,4 +1,13 @@
+<plantuml>
 @startmindmap
-skinparam defaultTextAlignment center
+<style>
+mindmapDiagram {
+  BackgroundColor black
+  arrowColor white
+  lineColor white
+  fontColor white
+}
+</style>
 * Definição
 @endmindmap
+</plantuml>
