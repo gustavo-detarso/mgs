@@ -32,10 +32,25 @@ Ao expor os erros, houve resistência por parte da chefe, que insistiu na adoç�
 | *Eu (servidor técnico)* | Precisão na distribuição das vagas | Garantir a correção matemática do cálculo para evitar distorções |
 
 * Alternativas das Partes (MACNA)
-A *Melhor Alternativa em Caso de Não Acordo (MACNA)* representa o que cada parte poderia fazer caso a negociação não chegasse a um consenso:
+A *Melhor Alternativa em Caso de Não Acordo (MACNA)* representa o que cada parte poderia fazer caso a negociação não chegasse a um consenso.
 
-- *Chefe do setor:* Poderia ter imposto sua decisão de forma unilateral, utilizando sua autoridade para validar o cálculo incorreto, correndo o risco de gerar distorções no concurso e futuras contestações jurídicas.
-- *Eu:* Poderia ter escalado a questão para instâncias superiores ou utilizado relatórios técnicos para contestar a metodologia adotada. No entanto, essa alternativa poderia gerar atritos institucionais e comprometer o ambiente de trabalho.
+- **Minha MACNA (Minha Alternativa em Caso de Não Acordo)**:
+  - *Aceitar a decisão da chefe*, mesmo sabendo que o cálculo estava incorreto, o que comprometeria a justiça na distribuição das vagas (opção inviável do ponto de vista ético e técnico).
+  - *Escalar a questão para instâncias superiores*, como outro setor do Ministério da Previdência Social, auditorias internas ou o Tribunal de Contas da União (TCU). Essa alternativa garantiria que o cálculo correto fosse utilizado, mas poderia gerar atritos institucionais e comprometer o ambiente de trabalho.
+  - *Elaborar um parecer técnico oficializando a contestação*, criando um registro formal para documentar os erros do cálculo e suas possíveis implicações futuras. Isso poderia funcionar como um mecanismo de proteção caso houvesse contestações jurídicas posteriores.
+
+- **MACNA da chefe (Alternativa dela em Caso de Não Acordo)**:
+  - *Impor sua decisão de forma unilateral*, utilizando sua autoridade para validar o cálculo incorreto. Essa abordagem poderia resultar em questionamentos internos ou futuros problemas administrativos e jurídicos.
+  - *Consultar outro especialista para validar sua posição*, buscando respaldo técnico para justificar sua metodologia.
+  - *Aceitar a revisão do cálculo correto*, evitando problemas futuros e assegurando a precisão dos dados.
+
+No contexto dessa negociação, minha **MACNA era relativamente forte**, pois eu dispunha de alternativas viáveis (escalar a questão, emitir um parecer técnico, etc.), mas todas elas tinham riscos associados, como desgaste no relacionamento com a chefe ou resistência hierárquica.
+
+A **MACNA da minha chefe era mais fraca**, pois insistir no erro poderia gerar consequências negativas para ela no longo prazo, principalmente se houvesse auditorias externas ou questionamentos judiciais.
+
+A compreensão das alternativas disponíveis foi essencial para estruturar melhor minha abordagem. Eu sabia que, caso não conseguisse convencê-la diretamente, poderia recorrer a outras estratégias para garantir a correção do cálculo.
+
+No entanto, evitar o uso da minha MACNA era a melhor estratégia, conduzindo a negociação de forma diplomática para que minha chefe aceitasse a solução correta sem gerar resistência. Um aprimoramento na *escuta ativa* e *paciência* poderia ter levado a um desfecho mais harmonioso e eficiente.
 
 * Concessões Realizadas
 Dada a objetividade da questão matemática, *não houve concessões na solução final*, pois o cálculo correto foi adotado integralmente. No entanto, a condução da negociação poderia ter sido aprimorada por meio de uma abordagem mais estratégica, levando em conta a necessidade de preservar o relacionamento interpessoal e minimizar desgastes com a liderança.
