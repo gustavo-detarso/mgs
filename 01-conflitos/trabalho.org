@@ -1,0 +1,59 @@
+#+TITLE: Análise de um Caso de Negociação e Gestão de Conflito
+#+AUTHOR: Gustavo Magalhães Mendes de Tarso
+#+DATE: 2025-02-24
+#+LANGUAGE: pt-BR
+#+OPTIONS: toc:nil num:nil
+
+* Introdução
+A negociação é um elemento essencial no ambiente corporativo, pois permite alinhar interesses divergentes e alcançar soluções eficazes. Em situações de conflito, a capacidade de ouvir diferentes perspectivas e manter a paciência são fatores críticos para o sucesso da negociação.
+
+Este trabalho tem como objetivo analisar um caso real de negociação ocorrido no *Ministério da Previdência Social*, no qual foi necessário enfrentar um conflito com uma superior hierárquica a respeito de um cálculo matemático aplicado à distribuição de vagas do concurso de *Perícia Médica Federal*. Durante essa experiência, evidenciou-se a necessidade de aprimoramento em duas competências essenciais para um negociador eficaz: *escuta ativa e paciência*.
+
+* Características a Melhorar
+** Escuta Ativa
+A *escuta ativa* é um componente fundamental da negociação, pois permite compreender completamente o ponto de vista da outra parte antes de formular uma resposta ou contraproposta. No caso analisado, houve dificuldade em ouvir a argumentação da superior hierárquica, dado que seu posicionamento era baseado em um erro matemático evidente. Essa dificuldade comprometeu a qualidade da comunicação e poderia ter gerado maior resistência ao convencimento.
+
+** Paciência
+A paciência é uma habilidade essencial para a resolução de conflitos, pois permite conduzir discussões com equilíbrio e evitar confrontos desnecessários. No episódio relatado, a impaciência ao lidar com a resistência da chefe quase prejudicou o processo de convencimento, podendo ter levado a uma escalada do conflito.
+
+* Descrição do Caso
+O caso ocorreu no contexto da elaboração da distribuição de vagas do concurso de *Perícia Médica Federal*, um processo que exigia precisão matemática para garantir justiça e eficiência na alocação dos recursos.
+
+A chefe do setor possuía um perfil autoritário, utilizando sua posição hierárquica para impor decisões, mesmo em questões de natureza objetiva, como cálculos matemáticos. No entanto, ao revisar a metodologia proposta, identifiquei que o cálculo sugerido apresentava inconsistências que comprometeriam a exatidão da distribuição das vagas.
+
+Ao expor os erros, houve resistência por parte da chefe, que insistiu na adoção de sua abordagem original, sem considerar os argumentos técnicos apresentados. O embate exigiu firmeza na defesa da alternativa correta, porém a dificuldade em escutar seu ponto de vista e a falta de paciência na condução do diálogo representaram desafios significativos ao longo da negociação.
+
+* Partes Envolvidas e seus Interesses
+#+ATTR_LATEX: :environment longtable :width \textwidth :align l p{0.3\textwidth} p{0.3\textwidth}
+| Parte                   | Interesse Principal                | Objetivos                                                        |
+|-------------------------+------------------------------------+------------------------------------------------------------------|
+| *Chefe do setor*        | Manutenção da autoridade decisória | Validar sua proposta e demonstrar controle sobre o processo      |
+|-------------------------+------------------------------------+------------------------------------------------------------------|
+| *Eu (servidor técnico)* | Precisão na distribuição das vagas | Garantir a correção matemática do cálculo para evitar distorções |
+
+* Alternativas das Partes (MACNA)
+A *Melhor Alternativa em Caso de Não Acordo (MACNA)* representa o que cada parte poderia fazer caso a negociação não chegasse a um consenso:
+
+- *Chefe do setor:* Poderia ter imposto sua decisão de forma unilateral, utilizando sua autoridade para validar o cálculo incorreto, correndo o risco de gerar distorções no concurso e futuras contestações jurídicas.
+- *Eu:* Poderia ter escalado a questão para instâncias superiores ou utilizado relatórios técnicos para contestar a metodologia adotada. No entanto, essa alternativa poderia gerar atritos institucionais e comprometer o ambiente de trabalho.
+
+* Concessões Realizadas
+Dada a objetividade da questão matemática, *não houve concessões na solução final*, pois o cálculo correto foi adotado integralmente. No entanto, a condução da negociação poderia ter sido aprimorada por meio de uma abordagem mais estratégica, levando em conta a necessidade de preservar o relacionamento interpessoal e minimizar desgastes com a liderança.
+
+* Avaliação da Performance e Aprendizados
+O principal êxito da negociação foi garantir a correção do cálculo, protegendo a integridade do processo seletivo. No entanto, dois pontos críticos foram identificados para aprimoramento:
+
+- *Escuta ativa:* Havia uma resistência em ouvir o argumento da chefe, mesmo que equivocado. Uma escuta mais atenta poderia ter facilitado a condução da negociação, permitindo identificar eventuais preocupações subjacentes dela.
+- *Paciência:* A impaciência na argumentação poderia ter gerado um impasse maior. O uso de técnicas de *negociação colaborativa*, como reformular perguntas e validar preocupações da outra parte, teria contribuído para um desfecho mais harmônico.
+
+* Plano de Desenvolvimento para Melhorar a Performance
+Para aprimorar as habilidades identificadas, algumas ações concretas serão implementadas em negociações futuras:
+
+- *Treinar escuta ativa:* Aplicar técnicas como *paráfrase* e *validação emocional* para demonstrar que o ponto de vista do outro foi compreendido antes de apresentar contrapontos.
+- *Desenvolver paciência:* Utilizar abordagens baseadas em *perguntas abertas* e evitar respostas impulsivas, garantindo um diálogo mais estruturado e estratégico.
+- *Adotar técnicas de persuasão mais diplomáticas:* Utilizar dados e evidências de forma mais pedagógica, explicando o raciocínio de forma gradual e conduzindo a outra parte a chegar à conclusão correta por conta própria.
+
+* Conclusão
+O caso analisado demonstrou a importância da escuta ativa e da paciência em negociações organizacionais, especialmente quando há resistência hierárquica. Embora o resultado final tenha sido positivo, garantindo a adoção do cálculo correto, o processo poderia ter sido conduzido de forma mais estratégica para minimizar desgastes.
+
+O desenvolvimento contínuo dessas habilidades será essencial para lidar com desafios futuros, garantindo que a comunicação em negociações seja cada vez mais eficaz e colaborativa.

@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: mindmap
+# key: mm
+# --
+<plantuml>
+@startmindmap
+<style>
+mindmapDiagram {
+  BackgroundColor black
+  arrowColor white
+  lineColor white
+  fontColor white
+}
+</style>
+*
+
+@endmindmap
+</plantuml>
