@@ -1,6 +1,6 @@
-% Created 2025-02-18 ter 16:11
+% Created 2025-02-19 qua 14:45
 % Intended LaTeX compiler: pdflatex
-\documentclass[11pt]{article}
+\documentclass[article,12pt,oneside,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -12,8 +12,21 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage[brazil, brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+\frenchspacing
+\pretolerance=100
+\tolerance=200
+\emergencystretch=3em
+\hbadness=2000
+\usepackage[alf]{abntex2cite}
+\bibliographystyle{abntex2-alf}
 \author{Gustavo Magalhães Mendes de Tarso}
-\date{2025-02-24}
+\date{\today}
 \title{Análise de um Caso de Negociação e Gestão de Conflito}
 \hypersetup{
  pdfauthor={Gustavo Magalhães Mendes de Tarso},
@@ -21,101 +34,117 @@
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 30.0.91 (Org mode 9.7.11)}, 
- pdflang={Pt-Br}}
+ pdflang={Portuges}}
 \begin{document}
 
 \maketitle
-\section*{Introdução}
-\label{sec:org23d1c2d}
-A negociação é um elemento essencial no ambiente corporativo, pois permite alinhar interesses divergentes e alcançar soluções eficazes. Em situações de conflito, a capacidade de ouvir diferentes perspectivas e manter a paciência são fatores críticos para o sucesso da negociação.
+\section{RESUMO}
+\label{sec:org4609a35}
 
-Este trabalho tem como objetivo analisar um caso real de negociação ocorrido no \textbf{Ministério da Previdência Social}, no qual foi necessário enfrentar um conflito com uma superior hierárquica a respeito de um cálculo matemático aplicado à distribuição de vagas do concurso de \textbf{Perícia Médica Federal}. Durante essa experiência, evidenciou-se a necessidade de aprimoramento em duas competências essenciais para um negociador eficaz: \textbf{escuta ativa e paciência}.
-\section*{Características a Melhorar}
-\label{sec:orgd966ba3}
-\subsection*{Escuta Ativa}
-\label{sec:org5db2ed2}
-A \textbf{escuta ativa} é um componente fundamental da negociação, pois permite compreender completamente o ponto de vista da outra parte antes de formular uma resposta ou contraproposta. No caso analisado, houve dificuldade em ouvir a argumentação da superior hierárquica, dado que seu posicionamento era baseado em um erro matemático evidente. Essa dificuldade comprometeu a qualidade da comunicação e poderia ter gerado maior resistência ao convencimento.
-\subsection*{Paciência}
-\label{sec:orgbcd8360}
-A paciência é uma habilidade essencial para a resolução de conflitos, pois permite conduzir discussões com equilíbrio e evitar confrontos desnecessários. No episódio relatado, a impaciência ao lidar com a resistência da chefe quase prejudicou o processo de convencimento, podendo ter levado a uma escalada do conflito.
-\section*{Descrição do Caso}
-\label{sec:org9c978e8}
-O caso ocorreu no contexto da elaboração da distribuição de vagas do concurso de \textbf{Perícia Médica Federal}, um processo que exigia precisão matemática para garantir justiça e eficiência na alocação dos recursos.
+A negociação é uma habilidade essencial no ambiente corporativo, permitindo alinhar interesses divergentes e resolver conflitos de forma eficaz. Este trabalho analisa um caso real de negociação ocorrido no \textbf{Ministério da Previdência Social}, envolvendo um embate entre um servidor técnico e sua superior hierárquica sobre um cálculo matemático na distribuição de vagas do concurso de \textbf{Perícia Médica Federal}. A análise destaca a importância da \textbf{escuta ativa} e da \textbf{paciência} como fatores críticos para o sucesso da negociação. O estudo aprofunda conceitos de negociação e gestão de conflitos, discutindo estratégias que podem aprimorar a comunicação interpessoal e minimizar desgastes em processos decisórios.
 
-A chefe do setor possuía um perfil autoritário, utilizando sua posição hierárquica para impor decisões, mesmo em questões de natureza objetiva, como cálculos matemáticos. No entanto, ao revisar a metodologia proposta, identifiquei que o cálculo sugerido apresentava inconsistências que comprometeriam a exatidão da distribuição das vagas.
+\textbf{Palavras-chave:} negociação, gestão de conflitos, escuta ativa, paciência.
+\section{INTRODUÇÃO}
+\label{sec:orgf7b3310}
 
-Ao expor os erros, houve resistência por parte da chefe, que insistiu na adoção de sua abordagem original, sem considerar os argumentos técnicos apresentados. O embate exigiu firmeza na defesa da alternativa correta, porém a dificuldade em escutar seu ponto de vista e a falta de paciência na condução do diálogo representaram desafios significativos ao longo da negociação.
-\section*{Partes Envolvidas e seus Interesses}
-\label{sec:orgf9dc376}
-\begin{longtable}{l p{0.3\textwidth} p{0.3\textwidth}}
-Parte & Interesse Principal & Objetivos\\
-\hline
-\endfirsthead
-\multicolumn{3}{l}{Continued from previous page} \\
-\hline
+A negociação está presente em diversas esferas da vida profissional e organizacional, sendo um instrumento essencial para a resolução de conflitos e a tomada de decisões eficazes \cite{fisher1991getting}. No contexto corporativo, lidar com divergências de opinião e interesses exige habilidades que vão além do conhecimento técnico, incluindo \textbf{comunicação estratégica, inteligência emocional e gestão de conflitos} \cite{goleman1998trabalhando}.
 
-Parte & Interesse Principal & Objetivos \\
-
-\hline
-\endhead
-\hline\multicolumn{3}{r}{Continued on next page} \\
-\endfoot
-\endlastfoot
-\hline
-\textbf{Chefe do setor} & Manutenção da autoridade decisória & Validar sua proposta e demonstrar controle sobre o processo\\
-\hline
-\textbf{Eu (servidor técnico)} & Precisão na distribuição das vagas & Garantir a correção matemática do cálculo para evitar distorções\\
-\end{longtable}
-\section*{Alternativas das Partes (MACNA)}
-\label{sec:orgdd45819}
-A \textbf{Melhor Alternativa em Caso de Não Acordo (MACNA)} representa o que cada parte poderia fazer caso a negociação não chegasse a um consenso.
+Este trabalho analisa um conflito ocorrido no setor público, no qual um servidor técnico precisou lidar com a resistência de sua superior hierárquica à correção de um erro matemático em um cálculo de distribuição de vagas. A experiência evidenciou a necessidade de aprimoramento em duas competências fundamentais para a negociação: \textbf{escuta ativa e paciência} \cite{ury1993como}.
+\section{REFERENCIAL TEÓRICO}
+\label{sec:orgd42c586}
+\subsection{Negociação e Estilos de Resolução de Conflitos}
+\label{sec:org8420d36}
+A negociação é um processo de comunicação estruturado para resolver conflitos e alcançar um acordo satisfatório para ambas as partes \cite{lewicki2015negotiation}. Segundo Robbins e Judge \cite{robbins2015comportamento}, os principais estilos de negociação incluem:
 
 \begin{itemize}
-\item \textbf{\textbf{Minha MACNA (Minha Alternativa em Caso de Não Acordo)}}:
-\begin{itemize}
-\item \textbf{Aceitar a decisão da chefe}, mesmo sabendo que o cálculo estava incorreto, o que comprometeria a justiça na distribuição das vagas (opção inviável do ponto de vista ético e técnico).
-\item \textbf{Escalar a questão para instâncias superiores}, como outro setor do Ministério da Previdência Social, auditorias internas ou o Tribunal de Contas da União (TCU). Essa alternativa garantiria que o cálculo correto fosse utilizado, mas poderia gerar atritos institucionais e comprometer o ambiente de trabalho.
-\item \textbf{Elaborar um parecer técnico oficializando a contestação}, criando um registro formal para documentar os erros do cálculo e suas possíveis implicações futuras. Isso poderia funcionar como um mecanismo de proteção caso houvesse contestações jurídicas posteriores.
+\item \textbf{Competitivo}: Enfatiza a vitória sobre o outro.
+\item \textbf{Colaborativo}: Busca ganhos mútuos.
+\item \textbf{Acomodativo}: Cede para preservar o relacionamento.
+\item \textbf{Evitativo}: Foge ou adia a negociação.
+\item \textbf{Compromissado}: Encontra um meio-termo.
 \end{itemize}
 
-\item \textbf{\textbf{MACNA da chefe (Alternativa dela em Caso de Não Acordo)}}:
-\begin{itemize}
-\item \textbf{Impor sua decisão de forma unilateral}, utilizando sua autoridade para validar o cálculo incorreto. Essa abordagem poderia resultar em questionamentos internos ou futuros problemas administrativos e jurídicos.
-\item \textbf{Consultar outro especialista para validar sua posição}, buscando respaldo técnico para justificar sua metodologia.
-\item \textbf{Aceitar a revisão do cálculo correto}, evitando problemas futuros e assegurando a precisão dos dados.
-\end{itemize}
-\end{itemize}
-
-No contexto dessa negociação, minha \textbf{\textbf{MACNA era relativamente forte}}, pois eu dispunha de alternativas viáveis (escalar a questão, emitir um parecer técnico, etc.), mas todas elas tinham riscos associados, como desgaste no relacionamento com a chefe ou resistência hierárquica.
-
-A \textbf{\textbf{MACNA da minha chefe era mais fraca}}, pois insistir no erro poderia gerar consequências negativas para ela no longo prazo, principalmente se houvesse auditorias externas ou questionamentos judiciais.
-
-A compreensão das alternativas disponíveis foi essencial para estruturar melhor minha abordagem. Eu sabia que, caso não conseguisse convencê-la diretamente, poderia recorrer a outras estratégias para garantir a correção do cálculo.
-
-No entanto, evitar o uso da minha MACNA era a melhor estratégia, conduzindo a negociação de forma diplomática para que minha chefe aceitasse a solução correta sem gerar resistência. Um aprimoramento na \textbf{escuta ativa} e \textbf{paciência} poderia ter levado a um desfecho mais harmonioso e eficiente.
-\section*{Concessões Realizadas}
-\label{sec:org218593e}
-Dada a objetividade da questão matemática, \textbf{não houve concessões na solução final}, pois o cálculo correto foi adotado integralmente. No entanto, a condução da negociação poderia ter sido aprimorada por meio de uma abordagem mais estratégica, levando em conta a necessidade de preservar o relacionamento interpessoal e minimizar desgastes com a liderança.
-\section*{Avaliação da Performance e Aprendizados}
-\label{sec:org418d575}
-O principal êxito da negociação foi garantir a correção do cálculo, protegendo a integridade do processo seletivo. No entanto, dois pontos críticos foram identificados para aprimoramento:
+A escolha do estilo adequado depende do contexto e dos interesses das partes envolvidas \cite{malhotra2016negotiation}.
+\subsection{Poder e Autoridade na Gestão de Conflitos}
+\label{sec:orge9429b0}
+Em ambientes hierárquicos, o poder organizacional influencia diretamente as negociações. French e Raven \cite{french1959bases} identificam diferentes tipos de poder:
 
 \begin{itemize}
-\item \textbf{Escuta ativa:} Havia uma resistência em ouvir o argumento da chefe, mesmo que equivocado. Uma escuta mais atenta poderia ter facilitado a condução da negociação, permitindo identificar eventuais preocupações subjacentes dela.
-\item \textbf{Paciência:} A impaciência na argumentação poderia ter gerado um impasse maior. O uso de técnicas de \textbf{negociação colaborativa}, como reformular perguntas e validar preocupações da outra parte, teria contribuído para um desfecho mais harmônico.
+\item \textbf{Poder legítimo}: Deriva da posição formal.
+\item \textbf{Poder de especialização}: Baseado no conhecimento técnico.
+\item \textbf{Poder coercitivo}: Capacidade de impor sanções.
+\item \textbf{Poder de recompensa}: Controle sobre benefícios.
 \end{itemize}
-\section*{Plano de Desenvolvimento para Melhorar a Performance}
-\label{sec:org9325c5f}
-Para aprimorar as habilidades identificadas, algumas ações concretas serão implementadas em negociações futuras:
+
+No caso analisado, a chefe utilizou seu \textbf{poder legítimo} para sustentar sua posição, enquanto o servidor se baseou no \textbf{poder de especialização} para justificar sua argumentação.
+\subsection{Retórica Aristotélica e Persuasão na Negociação}
+\label{sec:org5c2bcbc}
+Aristóteles descreve três pilares essenciais para a persuasão \cite{aristoteles2004retorica}:
 
 \begin{itemize}
-\item \textbf{Treinar escuta ativa:} Aplicar técnicas como \textbf{paráfrase} e \textbf{validação emocional} para demonstrar que o ponto de vista do outro foi compreendido antes de apresentar contrapontos.
-\item \textbf{Desenvolver paciência:} Utilizar abordagens baseadas em \textbf{perguntas abertas} e evitar respostas impulsivas, garantindo um diálogo mais estruturado e estratégico.
-\item \textbf{Adotar técnicas de persuasão mais diplomáticas:} Utilizar dados e evidências de forma mais pedagógica, explicando o raciocínio de forma gradual e conduzindo a outra parte a chegar à conclusão correta por conta própria.
+\item \textbf{Logos} – Argumentação baseada em lógica e evidências.
+\item \textbf{Ethos} – Construção de credibilidade do orador.
+\item \textbf{Pathos} – Apelo emocional para gerar conexão.
 \end{itemize}
-\section*{Conclusão}
-\label{sec:orge44ff6f}
-O caso analisado demonstrou a importância da escuta ativa e da paciência em negociações organizacionais, especialmente quando há resistência hierárquica. Embora o resultado final tenha sido positivo, garantindo a adoção do cálculo correto, o processo poderia ter sido conduzido de forma mais estratégica para minimizar desgastes.
 
-O desenvolvimento contínuo dessas habilidades será essencial para lidar com desafios futuros, garantindo que a comunicação em negociações seja cada vez mais eficaz e colaborativa.
+O sucesso da negociação depende do equilíbrio entre esses elementos.
+\section{ANÁLISE DO CASO}
+\label{sec:orgbd5ef26}
+\subsection{O Conflito e Seus Desdobramentos}
+\label{sec:org02ef109}
+No setor responsável pela distribuição de vagas do concurso de \textbf{Perícia Médica Federal}, identificou-se um erro matemático na metodologia adotada pela chefe do setor. Se aplicado, o cálculo resultaria em distorções na alocação das vagas, comprometendo a eficiência do processo e abrindo espaço para questionamentos jurídicos.
+
+O servidor técnico apresentou a inconsistência e propôs ajustes baseados em critérios matemáticos objetivos. No entanto, a chefe insistiu na aplicação do cálculo original, utilizando sua autoridade hierárquica para validar sua decisão.
+\subsection{Estratégias Utilizadas e aplicação do Raciocínio Aristotélico}
+\label{sec:orgb578bb9}
+Para superar a resistência da chefe e evitar a escalada do conflito, foram adotadas as seguintes estratégias:
+
+\begin{itemize}
+\item \textbf{Logos (Razão e Evidências)}:  
+\begin{itemize}
+\item Apresentação de dados técnicos e simulações para demonstrar a falha no cálculo.
+\item Comparação com metodologias validadas para reforçar a argumentação.
+\end{itemize}
+
+\item \textbf{Ethos (Credibilidade e Autoridade Técnica)}:  
+\begin{itemize}
+\item Citação de experiências anteriores do servidor na área.
+\item Referências a normativas internas e padrões técnicos.
+\end{itemize}
+
+\item \textbf{Pathos (Empatia e Comunicação Estratégica)}:  
+\begin{itemize}
+\item Uso de perguntas abertas para envolver a chefe na análise.
+\item Comunicação respeitosa para evitar resistência emocional.
+\end{itemize}
+\end{itemize}
+
+Essas abordagens permitiram que a chefe reconsiderasse sua posição sem sentir que sua autoridade estava sendo diretamente questionada.
+\subsection{Alternativas das Partes (MACNA)}
+\label{sec:orga0b1bb3}
+Segundo Fisher e Ury \cite{fisher1991getting}, a \textbf{Melhor Alternativa em Caso de Não Acordo (MACNA)} deve ser considerada para avaliar a força da posição de cada parte.
+
+\begin{itemize}
+\item \textbf{Minha MACNA}:  
+\begin{itemize}
+\item Escalar a questão para instâncias superiores (Tribunal de Contas, auditorias internas).
+\item Emitir um parecer técnico formalizando a contestação.
+\end{itemize}
+
+\item \textbf{MACNA da chefe}:  
+\begin{itemize}
+\item Imposição unilateral da decisão, assumindo riscos administrativos.
+\item Consulta a outro especialista para validar sua posição.
+\end{itemize}
+\end{itemize}
+
+A análise indicava que a MACNA da chefe era mais fraca, favorecendo uma negociação bem conduzida.
+\section{CONCLUSÃO}
+\label{sec:org4b3b248}
+A análise detalhada do caso demonstra que negociações em ambientes hierárquicos exigem uma combinação de \textbf{habilidade técnica e inteligência interpessoal}. O uso estratégico da \textbf{escuta ativa, paciência e retórica aristotélica} possibilitou a revisão do cálculo sem comprometer o relacionamento organizacional.
+
+A experiência reforça a importância do desenvolvimento contínuo de habilidades de negociação para lidar com conflitos de maneira eficaz e construtiva.
+
+\renewcommand{\bibname}{REFERÊNCIAS}
+\bibliography{referencias}
 \end{document}
