@@ -1,0 +1,42 @@
+# -*- mode: snippet -*-
+# name: ABNT Org-Mode
+# key: abnt
+# --
+#+TITLE: ${1:Título do Trabalho}
+#+AUTHOR: ${2:Seu Nome}
+#+DATE: \today
+#+LANGUAGE: pt-br
+#+OPTIONS: toc:nil title:t
+#+LATEX_CLASS_OPTIONS: [article,12pt,oneside,a4paper]
+#+LATEX_HEADER: \usepackage[brazil]{babel}
+#+LATEX_HEADER: \usepackage[utf8]{inputenc}
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage{lmodern}
+#+LATEX_HEADER: \usepackage{microtype}
+#+LATEX_HEADER: \usepackage[left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+#+LATEX_HEADER: \frenchspacing
+#+LATEX_HEADER: \pretolerance=100
+#+LATEX_HEADER: \tolerance=200
+#+LATEX_HEADER: \emergencystretch=3em
+#+LATEX_HEADER: \hbadness=2000
+#+LATEX_HEADER: \usepackage[alf]{abntex2cite}
+#+LATEX_HEADER: \bibliographystyle{abntex2-alf}
+
+* Introdução
+  ${3:A introdução deve conter um panorama do trabalho.}
+
+* Referencial Teórico
+  ${4:Aqui você pode adicionar suas referências.}
+
+* Metodologia
+  ${5:Explicação da metodologia usada.}
+
+* Resultados e Discussão
+  ${6:Os resultados obtidos são analisados aqui.}
+
+* Conclusão
+  ${7:As considerações finais são feitas nesta seção.}
+
+  #+LATEX: \renewcommand{\bibname}{REFERÊNCIAS}
+  \bibliography{referencias}
+
