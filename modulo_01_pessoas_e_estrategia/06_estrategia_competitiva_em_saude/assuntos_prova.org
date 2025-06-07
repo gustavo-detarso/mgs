@@ -1,0 +1,19 @@
+#+TITLE: Estratégia competitiva em saúde – Resumo Completo
+#+AUTHOR: Gustavo de Tarso
+#+LANGUAGE: pt_BR
+#+OPTIONS: toc:nil
+#+LATEX_COMPILER: xelatex
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX_HEADER: \usepackage[brazil]{babel}
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{Latin Modern Sans}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm}
+
+* Assuntos importantes para a prova
+- PESTEL
+- SWOT
+- SMART
+
+
