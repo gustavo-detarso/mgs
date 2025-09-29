@@ -1,0 +1,17 @@
+#+title: Resumo com mapa mental da matéria Negociação de Conflitos 
+#+author: Gustavo M. Mendes de Tarso
+
+* Definição:
+#+begin_quote
+É um processo em que duas ou mais partes, com interesses comuns e antagônicos, se reúnem para confrontar e discutir propostas explícitas com o objetivo de alcançar um acordo.
+(Hendon, Hendon e Harbig - 1996). 
+#+end_quote
+
+* Tipos:
+** Integrativa:
+É a abordagem pautada na franqueza, sinceridade, busca de sinergias e comportamentos harmônicos, além do compartilhamento de informações, que visa a geração de valor entre as partes.
+** Distributiva:
+É a abordagem que reinvidica ou pretende distribuir o valor.
+** Conclusão:
+A maioria das negociações possui uma mistura entre os dois tipos sendo que geralmente começa pela integrativa e, caso não seja bem sucedida, a distributiva.
+** Interesses e objetivos:

@@ -1,0 +1,70 @@
+#+LANGUAGE: pt_BR
+#+OPTIONS: toc:nil num:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_COMPILER: xelatex
+
+# ---- Tipografia e idioma
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{TeX Gyre Termes}[
+#+LATEX_HEADER:   UprightFont=texgyretermes-regular.otf,
+#+LATEX_HEADER:   BoldFont=texgyretermes-bold.otf,
+#+LATEX_HEADER:   ItalicFont=texgyretermes-italic.otf,
+#+LATEX_HEADER:   BoldItalicFont=texgyretermes-bolditalic.otf
+#+LATEX_HEADER: ]
+#+LATEX_HEADER: \usepackage[brazil]{babel}
+#+LATEX_HEADER: \usepackage{microtype}
+
+# ---- Página e parágrafo
+#+LATEX_HEADER: \usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{6pt}
+#+LATEX_HEADER: \sloppy
+
+# ---- Links e cores (opcional)
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black}
+#+LATEX_HEADER: \newcommand{\blueunder}[2][0.5pt]{%
+#+LATEX_HEADER:   {\vspace{-1.2cm}\centering\color{blue}\rule{#2}{#1}\par}%
+#+LATEX_HEADER: }
+
+# ---- Tabelas (Tabularray)
+#+LATEX_HEADER: \usepackage{tabularray}
+#+LATEX_HEADER: \UseTblrLibrary{booktabs}
+#+LATEX_HEADER: \SetTblrInner{rowsep=2pt,colsep=6pt}
+#+LATEX_HEADER: \renewcommand{\arraystretch}{1.12}
+
+# ---- Caixa/“cartão” (visual de ficha)
+#+LATEX_HEADER: \usepackage[most]{tcolorbox}
+#+LATEX_HEADER: \tcbset{boxrule=0.6pt, arc=2mm, colframe=black!50, colback=white, left=6pt, right=6pt, top=6pt, bottom=6pt}
+
+#+ATTR_LATEX: :height 2cm :center t
+[[/home/gustavodetarso/Documentos/.share/mgs_org/fgv.png]]
+#+LATEX: \blueunder{0.5\linewidth}
+
+#+LATEX: {\centering\color{blue}\itshape MBA Gestão em Saúde\par}
+
+#+begin_export latex
+\begin{tcolorbox}[title=Dados do fichamento,
+colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tblr}{Q[l,2.8cm] X[l]} % 2.8cm = largura da coluna de rótulos
+\textbf{Autor(es)}       & Tarso, Gustavo. \\
+\textbf{Título}          & Case 1 da aula \\
+\textbf{Módulo}          & Legislação e Finanças \\
+\textbf{Disciplina}      & Legislação e Compliance \\
+\textbf{Assuntos}        & Plataforma; consumidor.gov.br; Senacon \\
+\textbf{Resumo}          & Apresentação do sistema consumidor.gov.br \\
+\end{tblr}
+\end{tcolorbox}
+#+end_export
+
+A plataforma *consumidor.gov.br* foi criada pela Secretaria Nacional do Consumidor (Senacon), vinculada ao Ministério da Justiça e Segurança Pública, com o objetivo de *aproximar consumidores e empresas, promovendo a solução direta, rápida, gratuita e transparente de conflitos de consumo por meio digital*. Trata-se de uma política pública que concretiza os princípios do *Código de Defesa do Consumidor (Lei nº 8.078/1990)*, ao oferecer um espaço oficial de diálogo e resolução consensual de demandas, reduzindo a necessidade de judicialização e fortalecendo a cidadania.
+
+No setor de saúde, diversos segmentos empresariais podem participar da plataforma, desde que devidamente cadastrados e autorizados. Entre eles destacam-se as *operadoras de planos de saúde*, *empresas de seguro saúde e odontológico*, *laboratórios de análises clínicas e de diagnóstico por imagem*, *clínicas e redes de atendimento médico-hospitalar*, *empresas odontológicas*, *farmácias*, *drogarias* e *comércios eletrônicos de produtos médico-hospitalares e farmacêuticos*. Essa diversidade de participantes demonstra a amplitude da plataforma, que abrange toda a cadeia privada de prestação de serviços e fornecimento de produtos relacionados à saúde.
+
+A participação empresarial na plataforma traz inúmeras vantagens estratégicas. Ao oferecer um canal direto de diálogo com os consumidores, as empresas podem *resolver conflitos de forma célere e menos onerosa*, evitando processos judiciais e sanções administrativas. Além disso, o histórico público de desempenho na plataforma — que exibe indicadores de resposta, tempo e taxa de solução — *fortalece a imagem institucional e a reputação da marca*, aumentando a confiança dos consumidores. Outro benefício é a possibilidade de *monitorar demandas recorrentes e identificar falhas nos processos internos*, o que contribui para a melhoria contínua dos serviços prestados.
+
+Caso o consumidor não alcance a solução desejada por meio da plataforma, ele pode recorrer a outros instrumentos previstos na legislação, como os *Procons estaduais e municipais*, o *Juizado Especial Cível*, as *agências reguladoras competentes* (como a *Anvisa* e a *ANS*) ou as *ouvidorias das próprias empresas*. Esses meios podem ser utilizados *de forma concomitante ou gradativa*, de acordo com a natureza e a gravidade do conflito. Ainda assim, recomenda-se que o cidadão inicie pela plataforma consumidor.gov.br, por se tratar de um mecanismo *ágil, acessível e desburocratizado*, que frequentemente resulta em acordos satisfatórios sem necessidade de outras medidas.
+
+Em síntese, a plataforma consumidor.gov.br representa um avanço significativo na política de defesa do consumidor no Brasil, especialmente no setor de saúde, ao *facilitar a resolução de conflitos, ampliar a transparência e estimular práticas empresariais mais responsáveis*. Para o cidadão, constitui uma ferramenta democrática de empoderamento e exercício de direitos; para as empresas, uma oportunidade de aprimorar a relação com seus clientes e fortalecer sua posição no mercado. Mesmo quando não resolve definitivamente a demanda, seu uso contribui para um sistema de consumo mais equilibrado, transparente e eficiente.
