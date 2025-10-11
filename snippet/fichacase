@@ -1,0 +1,60 @@
+#+LANGUAGE: pt_BR
+#+OPTIONS: toc:nil num:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_COMPILER: xelatex
+
+# ---- Tipografia e idioma
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{TeX Gyre Termes}[
+#+LATEX_HEADER:   UprightFont=texgyretermes-regular.otf,
+#+LATEX_HEADER:   BoldFont=texgyretermes-bold.otf,
+#+LATEX_HEADER:   ItalicFont=texgyretermes-italic.otf,
+#+LATEX_HEADER:   BoldItalicFont=texgyretermes-bolditalic.otf
+#+LATEX_HEADER: ]
+#+LATEX_HEADER: \usepackage[brazil]{babel}
+#+LATEX_HEADER: \usepackage{microtype}
+
+# ---- Página e parágrafo
+#+LATEX_HEADER: \usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{6pt}
+#+LATEX_HEADER: \sloppy
+
+# ---- Links e cores (opcional)
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black}
+#+LATEX_HEADER: \newcommand{\blueunder}[2][0.5pt]{%
+#+LATEX_HEADER:   {\vspace{-1.2cm}\centering\color{blue}\rule{#2}{#1}\par}%
+#+LATEX_HEADER: }
+
+# ---- Tabelas (Tabularray)
+#+LATEX_HEADER: \usepackage{tabularray}
+#+LATEX_HEADER: \UseTblrLibrary{booktabs}
+#+LATEX_HEADER: \SetTblrInner{rowsep=2pt,colsep=6pt}
+#+LATEX_HEADER: \renewcommand{\arraystretch}{1.12}
+
+# ---- Caixa/“cartão” (visual de ficha)
+#+LATEX_HEADER: \usepackage[most]{tcolorbox}
+#+LATEX_HEADER: \tcbset{boxrule=0.6pt, arc=2mm, colframe=black!50, colback=white, left=6pt, right=6pt, top=6pt, bottom=6pt}
+
+#+ATTR_LATEX: :height 2cm :center t
+[[/home/gustavodetarso/Documentos/.share/mgs_org/fgv.png]]
+#+LATEX: \blueunder{0.5\linewidth}
+
+#+LATEX: {\centering\color{blue}\itshape MBA Gestão em Saúde\par}
+
+#+begin_export latex
+\begin{tcolorbox}[title=Dados do fichamento,
+  colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tblr}{Q[l,2.8cm] X[l]} % 2.8cm = largura da coluna de rótulos
+\textbf{Autor(es)}       & Tarso, Gustavo. \\
+\textbf{Título}          & Título da obra: subtítulo (se houver). \\
+\textbf{Módulo}          & Nome do módulo \\
+\textbf{Disciplina}      & Nome da disciplina \\
+\textbf{Assuntos}        & Palavra-chave 1; Palavra-chave 2; Palavra-chave 3. \\
+\textbf{Resumo}          & Resumo sucinto da obra. \\
+\end{tblr}
+\end{tcolorbox}
+#+end_export

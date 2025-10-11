@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: longtblr (tabularray)
+# key: ltbl
+# --
+#+begin_export latex
+\begin{longtblr}[
+  caption={$1},
+  label={tab:$2},
+]{colspec={X[2,l] X[3,l] X[2,l]}, width=\textwidth, rowhead=1, rows={valign=t}}
+\toprule
+$0
+\bottomrule
+\end{longtblr}
+#+end_export

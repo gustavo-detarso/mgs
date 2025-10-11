@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: Ficha bibliográfica (tcolorbox+tblr via export latex)
+# key: ficha
+# group: org
+# expand-env: ((yas-indent-line 'fixed) (yas-wrap-around-region 'nil))
+# --
+#+begin_export latex
+\begin{tcolorbox}[title=Dados da obra,
+  colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tblr}{Q[l,2.8cm] X[l]}
+\textbf{Autor(es)}   & ${1:Silva, João}$ \\
+\textbf{Título}      & ${2:Título: subtítulo}$ \\
+\textbf{Edição}      & ${3:1. ed.}$ \\
+\textbf{Publicação}  & ${4:Cidade: Editora, 2025}$ \\
+\textbf{Páginas}     & ${5:356 p.; il.; 24 cm}$ \\
+\textbf{Série}       & ${6:Coleção/volume (se houver)}$ \\
+\textbf{ISBN}        & ${7:978-85-00000-00-0}$ \\
+\textbf{Assuntos}    & ${8:Palavra-chave 1; Palavra-chave 2; Palavra-chave 3}$ \\
+\textbf{Resumo}      & ${9:Resumo sucinto da obra}$ \\
+\end{tblr}
+\end{tcolorbox}
+#+end_export
+
+$0
+
