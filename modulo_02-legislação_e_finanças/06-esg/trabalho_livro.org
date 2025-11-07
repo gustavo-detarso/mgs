@@ -1,0 +1,87 @@
+#+LANGUAGE: pt_BR
+#+OPTIONS: toc:nil num:nil
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_COMPILER: xelatex
+
+# ---- Tipografia e idioma
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setmainfont{TeX Gyre Termes}[
+#+LATEX_HEADER:   UprightFont=texgyretermes-regular.otf,
+#+LATEX_HEADER:   BoldFont=texgyretermes-bold.otf,
+#+LATEX_HEADER:   ItalicFont=texgyretermes-italic.otf,
+#+LATEX_HEADER:   BoldItalicFont=texgyretermes-bolditalic.otf
+#+LATEX_HEADER: ]
+#+LATEX_HEADER: \usepackage[brazil]{babel}
+#+LATEX_HEADER: \usepackage{microtype}
+
+# ---- Página e parágrafo
+#+LATEX_HEADER: \usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+#+LATEX_HEADER: \setlength{\parindent}{0pt}
+#+LATEX_HEADER: \setlength{\parskip}{6pt}
+#+LATEX_HEADER: \sloppy
+
+# ---- Links e cores (opcional)
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black}
+#+LATEX_HEADER: \newcommand{\blueunder}[2][0.5pt]{%
+#+LATEX_HEADER:   {\vspace{-1.2cm}\centering\color{blue}\rule{#2}{#1}\par}%
+#+LATEX_HEADER: }
+
+# ---- Tabelas (Tabularray)
+#+LATEX_HEADER: \usepackage{tabularray}
+#+LATEX_HEADER: \UseTblrLibrary{booktabs}
+#+LATEX_HEADER: \SetTblrInner{rowsep=2pt,colsep=6pt}
+#+LATEX_HEADER: \renewcommand{\arraystretch}{1.12}
+
+# ---- Caixa/“cartão” (visual de ficha)
+#+LATEX_HEADER: \usepackage[most]{tcolorbox}
+#+LATEX_HEADER: \tcbset{boxrule=0.6pt, arc=2mm, colframe=black!50, colback=white, left=6pt, right=6pt, top=6pt, bottom=6pt}
+
+#+ATTR_LATEX: :height 2cm :center t
+[[/home/gustavodetarso/Documentos/.share/mgs_org/fgv.png]]
+#+LATEX: \blueunder{0.5\linewidth}
+
+#+LATEX: {\centering\color{blue}\itshape MBA Gestão em Saúde\par}
+
+#+begin_export latex
+\begin{tcolorbox}[title=Dados da obra,
+  colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tblr}{rows={t}, rowsep=6pt, colspec={Q[l,2.8cm] X[l]}}
+\textbf{Autor(es)}   & Adriana Maria André \\
+\textbf{Título}      & Gestão de Clínicas Hospitais e Indústrias da Saúde \\
+\textbf{Edição}      & 3. ed. \\
+\textbf{Publicação}  & Rio de Janeiro: Atheneu, 2022 \\
+\textbf{Páginas}     & 362 p.; il.; 24 cm \\
+\textbf{ISBN}        & 978-65-5586-540-0 \\
+\textbf{Assuntos}    & Administração dos serviços de saúde; Administração da saúde \\
+\textbf{Resumo}      & O capítulo defende que a gestão sustentável em saúde deve integrar ética, responsabilidade social e ambiental, conciliando lucro com valores humanos e coletivos. Propõe que clínicas e hospitais sejam economicamente viáveis, socialmente justos e ambientalmente responsáveis. \\
+\end{tblr}
+\end{tcolorbox}
+#+end_export
+
+#+LATEX: \vspace{1cm}
+#+LATEX: \blueunder{0.5\linewidth}
+
+ATIVIDADE 1 - Artigo Reflexivo sobre Leitura (1,0 ponto)
+
+Vocês deverão ler o Capítulo 10 do livro "Gestão de Clínicas, Hospitais e Indústrias da Saúde" (3ª edição), coordenado pela Profa. Dra. Adriana Maria André (Editora Atheneu, 2023) - material disponível em anexo.
+
+O que entregar:
+- Um artigo reflexivo, elaborado por você, respondendo às seguintes questões:
+  - Quais as ideias principais defendidas pelo autor?
+  - Qual delas mais chamou sua atenção? Por quê?
+  - Que lição você leva da leitura deste capítulo para sua vida nas dimensões pessoal e profissional?
+
+Requisitos:
+- Extensão mínima: 500 palavras (aproximadamente 1 página)
+- Este é um trabalho de reflexão pessoal - queremos conhecer sua visão e análise crítica do conteúdo
+- Evite apenas resumir o capítulo; analise, relacione com sua experiência e expresse seu posicionamento
+
+#+LATEX: \vspace{1cm}
+#+LATEX: \blueunder{0.5\linewidth}
+
+O capítulo se propõe a questionar o leitor, quanto a necessidade atual de deixar um negócio na área de saúde ser cada vez mais sustentável. Para tanto é construído um alicerce pautado em três pilares de sustentação: a ética, o social e o ambiental. Para se chegar a esta nova forma de capitalismo, foi necessário entender a evolução deste sistema econômico ao longo do tempo, que nos princípio, pautava-se exclusivamente na ideia de que o único sentido para uma empresa, seria a aquisição de lucro para os acionistas (/shareholders/). Porém, esta visão foi suplantada atualmente para o modelo de *sustentabilidade*, que em síntese, redireciona a lucratividade para cobrir as necessidades de outros atores da relação, chamados de /stakeholders/, tão importantes quanto os acionistas. Sendo assim, o negócio deve apresentar um novo paradigma, o lucro ainda existe (viabilidade econômica), mas ele deve agregar *valor* pautado na ética, estando intimamente conectado com os aspectos sociais e ambientais.
+
+A ética
