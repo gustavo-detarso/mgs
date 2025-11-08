@@ -2,24 +2,26 @@
 #+OPTIONS: toc:nil num:nil
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS: [12pt]
-#+LATEX_COMPILER: xelatex
+#+LATEX_COMPILER: lualatex
 
 # ---- Tipografia e idioma
 #+LATEX_HEADER: \usepackage{fontspec}
-#+LATEX_HEADER: \setmainfont{TeX Gyre Termes}[
-#+LATEX_HEADER:   UprightFont=texgyretermes-regular.otf,
-#+LATEX_HEADER:   BoldFont=texgyretermes-bold.otf,
-#+LATEX_HEADER:   ItalicFont=texgyretermes-italic.otf,
-#+LATEX_HEADER:   BoldItalicFont=texgyretermes-bolditalic.otf
+#+LATEX_HEADER: \defaultfontfeatures{Ligatures=TeX}
+#+LATEX_HEADER: \setmainfont{Times New Roman}[
+#+LATEX_HEADER:   Path = /usr/share/fonts/truetype/msttcorefonts/,
+#+LATEX_HEADER:   Extension = .ttf,
+#+LATEX_HEADER:   UprightFont = Times_New_Roman,
+#+LATEX_HEADER:   BoldFont = Times_New_Roman_Bold,
+#+LATEX_HEADER:   ItalicFont = Times_New_Roman_Italic,
+#+LATEX_HEADER:   BoldItalicFont = Times_New_Roman_Bold_Italic
 #+LATEX_HEADER: ]
 #+LATEX_HEADER: \usepackage[brazil]{babel}
-#+LATEX_HEADER: \usepackage{microtype}
 
 # ---- Página e parágrafo
-#+LATEX_HEADER: \usepackage[left=3cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+#+LATEX_HEADER: \usepackage[a4paper,margin=3cm]{geometry}
+#+LATEX_HEADER: \linespread{1.5}
+#+LATEX_HEADER: \setlength{\parskip}{0.7em}
 #+LATEX_HEADER: \setlength{\parindent}{0pt}
-#+LATEX_HEADER: \setlength{\parskip}{6pt}
-#+LATEX_HEADER: \sloppy
 
 # ---- Links e cores (opcional)
 #+LATEX_HEADER: \usepackage{xcolor}
@@ -32,12 +34,12 @@
 # ---- Tabelas (Tabularray)
 #+LATEX_HEADER: \usepackage{tabularray}
 #+LATEX_HEADER: \UseTblrLibrary{booktabs}
-#+LATEX_HEADER: \SetTblrInner{rowsep=2pt,colsep=6pt}
-#+LATEX_HEADER: \renewcommand{\arraystretch}{1.12}
+#+LATEX_HEADER: \SetTblrInner{rowsep=0pt,colsep=3pt}
+#+LATEX_HEADER: \renewcommand{\arraystretch}{0.9}
 
 # ---- Caixa/“cartão” (visual de ficha)
 #+LATEX_HEADER: \usepackage[most]{tcolorbox}
-#+LATEX_HEADER: \tcbset{boxrule=0.6pt, arc=2mm, colframe=black!50, colback=white, left=6pt, right=6pt, top=6pt, bottom=6pt}
+#+LATEX_HEADER: \tcbset{boxrule=0.6pt, arc=2mm, colframe=black!50, colback=white, left=3pt, right=2pt, top=3pt, bottom=2pt}
 
 #+ATTR_LATEX: :height 2cm :center t
 [[/home/gustavodetarso/Documentos/.share/mgs_org/fgv.png]]
@@ -46,20 +48,24 @@
 #+LATEX: {\centering\color{blue}\itshape MBA Gestão em Saúde\par}
 
 #+begin_export latex
+\begingroup
+\linespread{1}\selectfont
 \begin{tcolorbox}[title=Dados da obra,
-  colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
-\begin{tblr}{rows={t}, rowsep=6pt, colspec={Q[l,2.8cm] X[l]}}
+colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tblr}[rowsep=1pt,stretch=1]{rows={t}, colspec={Q[l,2.8cm] X[l]}}
 \textbf{Autor(es)}   & Adriana Maria André \\
-\textbf{Título}      & Gestão de Clínicas Hospitais e Indústrias da Saúde \\
+\textbf{Título}      & Gestão de Clínicas, Hospitais e Indústrias da Saúde \\
 \textbf{Edição}      & 3. ed. \\
 \textbf{Publicação}  & Rio de Janeiro: Atheneu, 2022 \\
 \textbf{Páginas}     & 362 p.; il.; 24 cm \\
 \textbf{ISBN}        & 978-65-5586-540-0 \\
-\textbf{Assuntos}    & Administração dos serviços de saúde; Administração da saúde \\
-\textbf{Resumo}      & O capítulo defende que a gestão sustentável em saúde deve integrar ética, responsabilidade social e ambiental, conciliando lucro com valores humanos e coletivos. Propõe que clínicas e hospitais sejam economicamente viáveis, socialmente justos e ambientalmente responsáveis. \\
+\textbf{Assuntos}    & 1. Administração dos serviços de saúde. 2. Administração da produção - Saúde \\
+\textbf{Resumo}      & O capítulo defende que a gestão em saúde deve transcender o lucro e integrar ética, responsabilidade social e ambiental como pilares de sustentabilidade. Propõe um novo paradigma em que o desempenho das organizações seja medido pela coerência entre resultados econômicos e compromisso com a vida e o bem comum. \\
 \end{tblr}
 \end{tcolorbox}
+\endgroup
 #+end_export
+#+LATEX: \linespread{1.5}\selectfont
 
 #+LATEX: \vspace{1cm}
 #+LATEX: \blueunder{0.5\linewidth}
@@ -82,6 +88,127 @@ Requisitos:
 #+LATEX: \vspace{1cm}
 #+LATEX: \blueunder{0.5\linewidth}
 
-O capítulo se propõe a questionar o leitor, quanto a necessidade atual de deixar um negócio na área de saúde ser cada vez mais sustentável. Para tanto é construído um alicerce pautado em três pilares de sustentação: a ética, o social e o ambiental. Para se chegar a esta nova forma de capitalismo, foi necessário entender a evolução deste sistema econômico ao longo do tempo, que nos princípio, pautava-se exclusivamente na ideia de que o único sentido para uma empresa, seria a aquisição de lucro para os acionistas (/shareholders/). Porém, esta visão foi suplantada atualmente para o modelo de *sustentabilidade*, que em síntese, redireciona a lucratividade para cobrir as necessidades de outros atores da relação, chamados de /stakeholders/, tão importantes quanto os acionistas. Sendo assim, o negócio deve apresentar um novo paradigma, o lucro ainda existe (viabilidade econômica), mas ele deve agregar *valor* pautado na ética, estando intimamente conectado com os aspectos sociais e ambientais.
+O capítulo propõe uma reflexão profunda sobre o papel das organizações de saúde diante dos desafios contemporâneos da gestão. Ao discutir a transição do modelo econômico tradicional, baseado na maximização do lucro, para um paradigma de sustentabilidade, o texto evidencia que o setor da saúde deve ser pioneiro na consolidação de um novo modo de pensar o capitalismo. Essa mudança exige um alicerce firme, sustentado por três pilares: o ético, o social e o ambiental. O que o autor defende, em essência, é que a gestão em saúde precisa ser coerente com o seu propósito maior — preservar e promover a vida —, e isso só é possível quando a viabilidade econômica se equilibra com o compromisso moral e com o bem comum.
 
-A ética
+A ideia central do texto é clara: não existe gestão sustentável sem ética. Esse é o ponto de partida e o destino de toda a discussão. Considero, no entanto, paradoxal que um princípio tão elementar precise ser reafirmado. A ética, que deveria ser o pilar estrutural mais forte de qualquer sociedade civilizada, passou a ser tratada como uma tendência gerencial ou uma vantagem competitiva. Isso, por si só, é sintoma de uma deformação cultural. É quase um absurdo que, no século XXI, ainda seja necessário “lembrar” que um hospital ou uma clínica — espaços que lidam com o sofrimento humano — precisam ser éticos em suas decisões, relações e estratégias. Não há tecnologia, eficiência ou inovação capazes de compensar a ausência de integridade moral.
+
+A parte que mais me chamou atenção foi justamente essa tentativa de reposicionar o lucro dentro de um contexto mais humano. O texto mostra que a lógica do shareholder, centrada no interesse exclusivo dos acionistas, foi sendo substituída por uma visão de stakeholder, que reconhece a importância de todos os atores envolvidos no processo produtivo e social. Embora essa mudança pareça positiva, ainda a vejo com certa desconfiança. Não porque discordo da ideia, mas porque me parece que o discurso da sustentabilidade, muitas vezes, é apropriado por empresas que apenas adaptam sua linguagem sem transformar sua essência. O que deveria ser um princípio ético acaba se tornando uma estratégia de imagem. Assim, a ética deixa de ser uma convicção e passa a ser uma conveniência.
+
+No aspecto social, o capítulo traz uma reflexão especialmente relevante para quem atua na gestão pública ou privada da saúde. A responsabilidade social não se resume a cumprir leis trabalhistas ou apoiar campanhas filantrópicas. Ela exige um olhar sistêmico sobre o impacto das decisões administrativas. Uma clínica que valoriza seus profissionais, que promove condições dignas de trabalho e que respeita a individualidade de cada paciente já está exercendo sua função social. Da mesma forma, um gestor público que distribui recursos de forma equitativa, garantindo acesso à saúde de qualidade, também pratica responsabilidade social. O social, portanto, é o campo da ética em movimento — é onde as convicções morais se transformam em justiça concreta.
+
+O aspecto ambiental complementa esse tripé de forma incontornável. Em um tempo de crise climática, falar de saúde sem falar de meio ambiente é uma incoerência. O autor lembra que hospitais, laboratórios e indústrias da saúde também impactam o ecossistema: geram resíduos, consomem energia e emitem gases nocivos. Gerir uma instituição de saúde é, portanto, também gerir seu impacto sobre o planeta. A responsabilidade ambiental, nesse sentido, não deve ser vista como custo, mas como investimento no futuro da própria humanidade. Preservar o meio ambiente é um ato de coerência ética: cuidar do planeta é cuidar da saúde coletiva.
+
+Pessoalmente, o texto me levou a uma reflexão incômoda, mas necessária. A constatação de que a ética precisa ser “resgatada” revela o quanto nos acostumamos a viver em um modelo de mundo que normalizou a indiferença. Como indivíduo que não acredita no capitalismo como caminho de plenitude, mas que compreende a inevitabilidade de conviver com ele, percebo que a saída não está na negação do sistema, e sim na sua resignificação. Se o lucro é inevitável, que ele ao menos seja consequência de ações justas, humanas e equilibradas.
+
+Na dimensão profissional, levo deste capítulo um lembrete valioso: liderar é um ato ético antes de ser um ato técnico. A gestão pública e a gestão em saúde não podem se reduzir a métricas ou resultados numéricos; elas precisam ser expressão de valores. Cada decisão administrativa, cada política implementada, cada escolha orçamentária deve carregar a responsabilidade de quem entende que o serviço prestado é um reflexo da própria humanidade de quem o executa.
+
+Em síntese, o texto reforça uma ideia que considero inegociável: ética, responsabilidade social e compromisso ambiental não são modismos administrativos — são condições de legitimidade. Uma empresa ou instituição que ainda precise “adotar” esses valores demonstra que perdeu o sentido de sua própria existência. A verdadeira inovação não está em descobrir a ética, mas em finalmente praticá-la. A sustentabilidade, nesse contexto, não é um diferencial; é o mínimo que se espera de qualquer organização que pretenda existir de forma digna em um mundo que precisa, mais do que nunca, reaprender a ter consciência.
+
+#+NAME: estatisticas-texto
+#+begin_src python :results value raw :exports results :var fname=(buffer-file-name)
+import pathlib
+import re
+import subprocess
+
+path = pathlib.Path(fname)
+text = path.read_text(encoding="utf-8")
+lines = text.splitlines()
+
+# 1) Achar o ÚLTIMO bloco:
+#    #+LATEX: \vspace{1cm}
+#    #+LATEX: \blueunder{...}
+start_idx = None
+i = 0
+while i < len(lines):
+    if lines[i].strip() == "#+LATEX: \\vspace{1cm}":
+        j = i + 1
+        while j < len(lines) and "\\blueunder" not in lines[j]:
+            j += 1
+        if j < len(lines):
+            start_idx = j + 1
+            i = j + 1
+            continue
+    i += 1
+
+if start_idx is None or start_idx >= len(lines):
+    return "* Estatísticas do texto\nProblema: marcador não encontrado.\n"
+
+body_lines = lines[start_idx:]
+
+# 2) Limpar o texto (ignorar diretivas, blocos de código e estatísticas antigas)
+clean = []
+skip_stats = False
+inside_code = False
+
+for l in body_lines:
+    ls = l.lstrip()
+    if ls.startswith("* Estatísticas do texto"):
+        skip_stats = True
+        continue
+    if skip_stats:
+        continue
+
+    if ls.lower().startswith("#+begin_src"):
+        inside_code = True
+        continue
+    if ls.lower().startswith("#+end_src"):
+        inside_code = False
+        continue
+    if inside_code:
+        continue
+
+    if ls.startswith("#+"):
+        continue
+
+    clean.append(l)
+
+body = "\n".join(clean)
+
+# 3) Contar palavras, linhas (no Org) e parágrafos
+words = len(re.findall(r"\S+", body))
+lines_count = len(body.splitlines())
+
+paras = 0
+in_para = False
+for l in body.splitlines():
+    if l.strip():
+        if not in_para:
+            paras += 1
+            in_para = True
+    else:
+        in_para = False
+
+# 4) Linhas no PDF via SEU SCRIPT
+pdf = path.with_suffix(".pdf")
+pdf_lines = None
+try:
+    cmd = [
+        "/home/gustavodetarso/.local/bin/count_pdf_lines",  # AJUSTE AQUI O CAMINHO
+        str(pdf),
+        "--keep-blank",
+        "--preset",
+        "fgv",
+    ]
+    out = subprocess.check_output(cmd, text=True)
+    for line in out.splitlines():
+        line = line.strip()
+        if line.startswith("TOTAL:"):
+            # Ex.: "TOTAL: 83"
+            parts = line.split()
+            pdf_lines = int(parts[-1])
+            break
+except Exception as e:
+    pdf_lines = None
+
+# 5) Montar saída em Org (lista → vira itemize no PDF)
+res = "* Estatísticas do texto\n"
+res += f"- Palavras: {words}\n"
+if pdf_lines is not None:
+    res += f"- Linhas: {pdf_lines}\n"
+else:
+    res += "- Linhas: erro ao chamar o script\n"
+res += f"- Parágrafos: {paras}\n"
+
+return res
+#+end_src
+
