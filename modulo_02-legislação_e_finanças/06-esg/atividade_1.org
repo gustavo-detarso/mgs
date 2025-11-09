@@ -166,7 +166,7 @@ body = "\n".join(clean)
 
 # 3) Contar palavras, linhas (no Org) e parágrafos
 words = len(re.findall(r"\S+", body))
-lines_count = len(body.splitlines())
+lines_count = sum(1 for l in body.splitlines() if l.strip())
 
 paras = 0
 in_para = False
