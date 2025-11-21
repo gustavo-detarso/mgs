@@ -1,0 +1,192 @@
+#+TITLE: Plano de Ação – Valores Universalizáveis em Saúde
+#+AUTHOR: Catarina Vila;
+#+AUTHOR: Eduardo Blank;
+#+AUTHOR: Francisco Robson L. de Moraes;
+#+AUTHOR: Gustavo M. Mendes de Tarso;
+#+AUTHOR: Milton Mello.
+
+#+DATE: NOV/2026
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [aspectratio=169]
+#+OPTIONS: toc:nil
+#+LATEX_COMPILER: lualatex
+
+# Pipeline turbinado apenas para este arquivo (PIPELINE B)
+#+BIND: org-latex-pdf-process ("lualatex -shell-escape -interaction nonstopmode -output-directory %o %f" "lualatex -shell-escape -interaction nonstopmode -output-directory %o %f")
+
+# ==========================
+# TEMA FGV OFICIAL (HEADER)
+# ==========================
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \setsansfont{TeX Gyre Heros}
+#+LATEX_HEADER: \setmainfont{TeX Gyre Heros}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \definecolor{FGVBlue}{HTML}{003366}
+#+LATEX_HEADER: \definecolor{FGVBlueLight}{HTML}{0070C0}
+#+LATEX_HEADER: \definecolor{FGVGray}{HTML}{666666}
+
+#+LATEX_HEADER: \usetheme{Madrid}
+#+LATEX_HEADER: \setbeamercolor{palette primary}{bg=FGVBlue,fg=white}
+#+LATEX_HEADER: \setbeamercolor{palette secondary}{bg=FGVBlueLight,fg=white}
+#+LATEX_HEADER: \setbeamercolor{palette tertiary}{bg=FGVBlue,fg=white}
+#+LATEX_HEADER: \setbeamercolor{palette quaternary}{bg=FGVBlue,fg=white}
+
+#+LATEX_HEADER: \setbeamercolor{structure}{fg=FGVBlue}
+#+LATEX_HEADER: \setbeamercolor{title}{fg=white,bg=FGVBlue}
+#+LATEX_HEADER: \setbeamercolor{frametitle}{fg=white,bg=FGVBlue}
+#+LATEX_HEADER: \setbeamercolor{normal text}{fg=FGVGray,bg=white}
+#+LATEX_HEADER: \setbeamercolor{itemize item}{fg=FGVBlue}
+#+LATEX_HEADER: \setbeamercolor{itemize subitem}{fg=FGVBlueLight}
+
+# Blocos em azul/cinza FGV
+#+LATEX_HEADER: \setbeamercolor{block title}{fg=white,bg=FGVBlue}
+#+LATEX_HEADER: \setbeamercolor{block body}{fg=FGVGray,bg=FGVBlue!3}
+
+# Logo na capa
+#+LATEX_HEADER: \titlegraphic{\vspace{-0.5cm}\includegraphics[height=1.2cm]{/home/gustavodetarso/Documentos/.share/mgs_org/fgv.png}}
+
+# REMOVER O SLIDE "OUTLINE"
+#+LATEX_HEADER: \AtBeginSection[]{}
+
+# Rodapé com título abreviado – nº dos slides (sem autor)
+#+LATEX_HEADER: \setbeamertemplate{navigation symbols}{}
+#+LATEX_HEADER: \setbeamerfont{footline}{size=\scriptsize}
+#+LATEX_HEADER: \setbeamertemplate{footline}{%
+#+LATEX_HEADER:   \leavevmode%
+#+LATEX_HEADER:   \hbox{%
+#+LATEX_HEADER:     \begin{beamercolorbox}[wd=.7\paperwidth,ht=2.5ex,dp=1ex,left]{author in head/foot}%
+#+LATEX_HEADER:       \hspace*{1ex}\insertshorttitle
+#+LATEX_HEADER:     \end{beamercolorbox}%
+#+LATEX_HEADER:     \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.5ex,dp=1ex,right]{date in head/foot}%
+#+LATEX_HEADER:       \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+#+LATEX_HEADER:     \end{beamercolorbox}%
+#+LATEX_HEADER:   }%
+#+LATEX_HEADER:   \vskip0pt%
+#+LATEX_HEADER: }
+
+* Introdução
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+Os valores universalizáveis — igualdade, equidade, respeito, honestidade e liberdade — são fundamentais para construir uma governança ética sólida e uma prática assistencial coerente.  
+Este plano traduz esses valores em ações práticas estruturadas com base na metodologia *5W2H*, indicadores *SMART* e *KPIs*, assegurando executabilidade, monitoramento contínuo e impacto institucional real.
+
+* Visão Geral do Fluxo do Plano
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+#+ATTR_LATEX: :width 0.135\textwidth
+[[file:fluxograma_valores_smart_kpi_colorido.png]]
+
+* Eixo 1 – Comitê de Valores Éticos
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+Criado para fortalecer a governança institucional e padronizar decisões sobre dilemas éticos.  
+O Comitê integra direção geral, jurídico, enfermagem, qualidade, RH e corpo clínico, garantindo diversidade de perspectivas e legitimidade organizacional.
+
+**Elementos-chave**
+- *What:* criação e formalização do comitê  
+- *Why:* evitar decisões fragmentadas e aumentar a segurança ética  
+- *Where:* sede administrativa  
+- *When:* meses 1–2  
+- *Who:* direção, jurídico, qualidade, enfermagem, RH, corpo clínico  
+- *How:* reuniões quinzenais, atas padronizadas, fluxo formal de análise  
+- *How much:* ~R$ 3.000/ano  
+- *KPIs:* tempo de resposta < 10 dias; ≥ 70% recomendações implementadas  
+
+* Eixo 2 – Revisão do Código de Ética
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+O Código de Ética atualizado incorpora valores universalizáveis, exemplos reais de dilemas e diretrizes práticas para enfrentar conflitos organizacionais.
+
+**Elementos-chave**
+- *What:* revisão completa do Código de Ética e Conduta  
+- *Why:* reduzir ambiguidades normativas e fortalecer coerência moral  
+- *When:* meses 2–4  
+- *How:* oficinas, benchmark com boas práticas, diagramação acessível  
+- *How much:* ~R$ 5.000  
+- *KPIs:* 100% de colaboradores comunicados; avaliação ≥ 80%; revisão anual  
+
+* Eixo 3 – Programa Ética no Cuidado
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+Programa educacional contínuo que trabalha competências éticas, habilidades comunicacionais e análise sistemática de casos.
+
+**Elementos-chave**
+- *What:* formação ética permanente (módulos digitais e presenciais)  
+- *Why:* decisões clínicas exigem preparo moral constante  
+- *When:* meses 4–12  
+- *How:* simulações, estudos de caso, oficinas interativas  
+- *How much:* ~R$ 25.000/ano  
+- *KPIs:* ≥ 85% de adesão; pós-teste ≥ 80%; nº de oficinas/ano  
+
+* Eixo 4 – Política de Equidade no Atendimento
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+Estratégia institucional para reduzir vieses e desigualdades no acesso ao cuidado, assegurando justiça distributiva e respeito às diferenças.
+
+**Elementos-chave**
+- *What:* revisão de fluxos de triagem, protocolos de priorização e materiais acessíveis  
+- *Why:* desigualdades sociais impactam diretamente a qualidade assistencial  
+- *Where:* pronto atendimento, ambulatório e internação  
+- *When:* a partir do mês 5  
+- *How much:* ~R$ 40.000  
+- *KPIs:* queixas de discriminação ↓ 20%; diferença média de tempo de atendimento < 10%  
+
+* Eixo 5 – Canal Ético e Espaço Seguro de Fala
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+Canal anônimo que fortalece a integridade institucional e protege profissionais e pacientes contra silenciamento e retaliação.
+
+**Elementos-chave**
+- *When:* meses 3–6  
+- *Who:* Compliance + TI  
+- *How:* plataforma independente, anonimato garantido, fluxo formal de apuração  
+- *How much:* ~R$ 18.000/ano  
+- *KPIs:* resposta < 7 dias; resolutividade > 85%; satisfação dos denunciantes ≥ 80%  
+
+* Eixo 6 – Protocolos de Decisão Ética
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+Protocolos claros para tomada de decisão em situações críticas como:
+- escassez de recursos
+- fim de vida
+- objeção de consciência
+- conflitos familiares
+
+**Elementos-chave**
+- *When:* meses 6–12  
+- *Who:* Comitê de Bioética, Direção Médica, Jurídico  
+- *How:* construção multiprofissional, validação em casos reais, revisão periódica  
+- *How much:* ~R$ 10.000  
+- *KPIs:* adesão > 80%; redução de conflitos e retrabalhos documentada  
+
+* Cronograma (Gantt)
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+#+ATTR_LATEX: :width 0.90\textwidth 
+[[file:gantt-plano-valores.png]]
+
+* Conclusão
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+
+O plano integra *5W2H*, *SMART* e *KPIs* para transformar valores universalizáveis em práticas concretas, auditáveis e sustentáveis.  
+O resultado esperado é um hospital com maior coerência moral, maior segurança decisória e maior maturidade ética, capaz de responder a dilemas complexos com estabilidade institucional e foco nos direitos dos pacientes e trabalhadores.

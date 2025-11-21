@@ -69,43 +69,27 @@ colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
 #+end_export
 #+LATEX: \linespread{1.5}\selectfont
 
-ATIVIDADE 2 - Análise ESG: Caso "Remédio Amargo" (1,0 ponto)
-Prazo: 21/11/2025, até 23:59h
-
-Assistam ao episódio "Remédio Amargo" da primeira temporada da série "Na Rota do Dinheiro Sujo" (disponível na Netflix).
-
-O que entregar:
-
-- Um artigo analisando o caso apresentado sob a perspectiva dos aspectos ESG (Environmental, Social and Governance).
-
-Requisitos:
-
-- Extensão mínima: 1 página
-- A análise deve abordar claramente os três pilares do ESG: ambiental, social e governança
-- Relacione o caso com práticas e desafios do setor de saúde
-- Apresente uma visão crítica sobre as questões éticas e de governança retratadas
-
-Entrega: e-class
-
 #+LATEX: \vspace{1cm}
 #+LATEX: \blueunder{0.5\linewidth}
 
-“Remédio Amargo”: uma análise ESG do colapso ético na Valeant Pharmaceuticals
+O episódio “Remédio Amargo”, da série Na Rota do Dinheiro Sujo, traz a história da Valeant Pharmaceuticals de um jeito que incomoda — e deveria incomodar. O documentário mostra como uma empresa que deveria existir para melhorar vidas acabou se tornando símbolo de ganância, manipulação financeira e indiferença humana. Ao olhar esse caso pela lente ESG, é impossível não enxergar o quanto a busca cega pelo lucro, quando descolada de qualquer responsabilidade ética, pode transformar o setor da saúde em algo profundamente desumano.
 
-O episódio “Remédio Amargo”, da série Na Rota do Dinheiro Sujo (Netflix), apresenta o caso da Valeant Pharmaceuticals, uma companhia que ascendeu rapidamente por meio de aquisições agressivas, manipulação de preços e práticas financeiras duvidosas. A partir da perspectiva ESG (Environmental, Social and Governance), o documentário expõe de forma contundente como a ausência de responsabilidade ética e a obsessão pelo lucro imediato corroem os pilares da sustentabilidade corporativa, especialmente em um setor tão sensível quanto o da saúde.
+Apesar de o foco do episódio ser o comportamento financeiro e contábil da empresa, fica claro que a dimensão ambiental quase nem existia dentro da Valeant. A companhia não parecia minimamente preocupada com práticas sustentáveis, inovação responsável ou impacto ambiental. A lógica era simples e brutal: cortar custos, comprar empresas, aumentar preços, inflar o valor das ações. Num modelo que depende de resultados imediatos e recompensas executivas atreladas ao preço da ação, pensar em sustentabilidade — seja ambiental ou social — virava quase um obstáculo.
 
-Embora o foco do caso seja financeiro e ético, a dimensão ambiental se manifesta na negligência estrutural da empresa com práticas sustentáveis. O modelo de negócio da Valeant priorizava ganhos financeiros de curto prazo em detrimento de qualquer preocupação socioambiental. Não havia investimentos significativos em inovação verde, gestão de resíduos farmacêuticos ou controle de emissões — reflexo de uma governança voltada unicamente ao mercado financeiro e à valorização das ações.
+Mas o que realmente escancara a profundidade do problema é o impacto social. A Valeant comprava medicamentos essenciais e multiplicava seus preços por cinco, por oito, por dez — sem qualquer justificativa clínica, sem melhora terapêutica, sem pesquisa adicional. E do outro lado desses preços estavam famílias reais, muitas de classe média baixa, que de um mês para o outro não conseguiam mais pagar um remédio que mantinha um filho vivo, que controlava uma doença crônica, que permitia que alguém continuasse trabalhando. O documentário mostra esse sofrimento de forma dura: pessoas sendo obrigadas a escolher entre pagar o aluguel ou comprar um medicamento que sempre esteve ao alcance. É devastador.
 
-O impacto social das ações da Valeant foi devastador. A empresa comprava medicamentos essenciais e elevava seus preços em até 800%, tornando-os inacessíveis para milhares de pacientes. Essa prática violou frontalmente o princípio social do ESG, que exige que empresas de saúde garantam acesso, equidade e responsabilidade social. O documentário evidencia como a estratégia de maximização de lucros colocou o lucro acima da vida humana, afetando diretamente comunidades vulneráveis e gerando indignação pública. Essa conduta revela um rompimento ético com o propósito essencial da indústria da saúde: promover o bem-estar.
+E essa dor social tem tudo a ver com a estrutura do sistema de saúde dos Estados Unidos. Lá, a maior parte das pessoas depende de operadoras de saúde privadas (health insurance companies). Esses planos funcionam numa lógica mercadológica: eles negociam preços com as farmacêuticas, definem quais remédios serão cobertos e estabelecem quanto o paciente terá de pagar do próprio bolso. Quando a Valeant disparou artificialmente o preço dos medicamentos, muitos planos simplesmente deixaram de cobrir ou passaram a exigir co-pagamentos absurdos. Assim, o efeito não ficou restrito à indústria — caiu diretamente no colo de quem menos tinha poder para reagir: famílias comuns, pacientes com doenças raras, idosos que não conseguem trabalhar para complementar renda. A engrenagem inteira foi contaminada por essa lógica predatória.
 
-O pilar mais comprometido no caso Valeant é o da governança. A companhia foi estruturada sobre um modelo de negócios opaco, com operações financeiras artificiais e relacionamentos obscuros com farmácias intermediárias — o que configurou fraude contábil. A ausência de controles internos efetivos, a remuneração executiva baseada apenas em valorização de ações e a conivência do conselho de administração criaram um ambiente fértil para manipulação e escândalos. A governança da Valeant falhou em seu dever fiduciário, distorceu demonstrações financeiras e destruiu a confiança de investidores e consumidores.
+O episódio também traz um elemento pouco comentado no debate público brasileiro, mas central no caso: a atuação dos investidores que faziam venda a descoberto (short selling). Isso significa operar no mercado apostando que o preço da ação vai cair — na prática, o investidor pega ações emprestadas, vende por um preço alto e depois recompra quando (ou se) o preço cair. É uma aposta contra a empresa. No caso da Valeant, esses investidores soaram o alarme muito antes do escândalo estourar: eles identificaram inconsistências, estruturas financeiras suspeitas e alertaram que “algo cheirava mal”. Foram muito atacados na época, mas acabaram se mostrando corretos. Paradoxalmente, foram eles — investidores especuladores — que ajudaram a desmontar a narrativa de uma empresa que se vendia como inovadora, mas que na verdade construía valor com alicerces fraudulentos.
 
-O caso evidencia um dilema recorrente na indústria farmacêutica: a tensão entre inovação, ética e rentabilidade. Quando a governança se torna refém de metas financeiras e a dimensão social é ignorada, o próprio sistema de saúde perde legitimidade. O episódio mostra como práticas de precificação abusiva e fusões sem critérios técnicos desestruturam o equilíbrio entre acesso, pesquisa e sustentabilidade. O setor de saúde, portanto, precisa incorporar o ESG como eixo estratégico, garantindo que o lucro seja compatível com o valor social e ético da sua atuação.
+O pilar da governança, nesse caso, não apenas falhou: ele ruiu por completo. A Valeant operava com engenharia financeira opaca, usava farmácias intermediárias para inflar números e apresentava resultados distorcidos para o mercado. A remuneração dos executivos era inteiramente guiada pelo preço da ação, criando um incentivo direto para práticas de risco e manipulação. Era um ambiente onde conselhos de administração preferiam não perguntar, auditores não aprofundavam e acionistas celebravam enquanto o castelo de cartas crescia.
 
-O colapso da Valeant é um exemplo emblemático de como a ausência de governança ética e de responsabilidade social pode destruir valor econômico e reputacional. “Remédio Amargo” mostra que a sustentabilidade corporativa não se resume a relatórios de compliance, mas à coerência entre discurso e prática. A lição é clara: empresas de saúde que desconsideram os pilares ESG comprometem não apenas sua imagem, mas a própria credibilidade de um setor que deveria, antes de tudo, cuidar de pessoas.
+Para mim, o caso da Valeant evidencia algo que vai além dessa empresa específica: expõe o limite ético do capitalismo. Sei que vivemos dentro desse sistema e que não temos, no curto prazo, uma alternativa funcional para substituí-lo. Mas também sei que é ilusório acreditar que o lucro, por si só, pode ser um princípio ético. O capitalismo não recompensa cuidado, responsabilidade ou empatia — recompensa retorno financeiro. E é exatamente por isso que, se estamos condenados a conviver com esse modelo, o mínimo que se espera é que ele seja conduzido com ética, transparência e respeito humano. Sem isso, o resultado é sempre o mesmo: sofrimento real de pessoas reais.
+
+O colapso da Valeant não foi apenas o colapso de uma empresa; foi o colapso de uma lógica que prioriza o valor de mercado acima da vida. “Remédio Amargo” não fala só sobre uma fraude corporativa — fala sobre o risco social de permitir que a saúde seja tratada apenas como commodity. E a lição é clara: quando uma empresa de saúde ignora ESG, ela não está apenas destruindo sua reputação; está destruindo o que deveria ser sua razão de existir — o cuidado com pessoas.
 
 #+NAME: estatisticas-texto
-#+begin_src python :results value raw :exports results :var fname=(buffer-file-name) :var linha_ini=93 :var linha_fim=105
+#+begin_src python :results value raw :exports none :var fname=(buffer-file-name) :var linha_ini=75 :var linha_fim=89
 import pathlib
 import re
 import subprocess

@@ -42,158 +42,263 @@
 #+LATEX_HEADER: \tcbset{boxrule=0.6pt, arc=2mm, colframe=black!50, colback=white, left=3pt, right=2pt, top=3pt, bottom=2pt}
 
 #+ATTR_LATEX: :height 2cm :center t
+#+ATTR_ORG: :width 300px
 [[/home/gustavodetarso/Documentos/.share/mgs_org/fgv.png]]
 #+LATEX: \blueunder{0.5\linewidth}
-
-#+LATEX: {\centering\color{blue}\itshape MBA Gestão em Saúde\par}
 
 #+begin_export latex
 \begingroup
 \linespread{1}\selectfont
-\begin{tcolorbox}[title=Dados da obra,
-colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tcolorbox}[title=Ficha Técnica,
+  colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
 \begin{tblr}[rowsep=1pt,stretch=1]{rows={t}, colspec={Q[l,2.8cm] X[l]}}
-\textbf{Autor(es)}   & Adriana Maria André \\
-\textbf{Título}      & Gestão de Clínicas, Hospitais e Indústrias da Saúde \\
-\textbf{Edição}      & 3. ed. \\
-\textbf{Publicação}  & Rio de Janeiro: Atheneu, 2022 \\
-\textbf{Páginas}     & 362 p.; il.; 24 cm \\
-\textbf{ISBN}        & 978-65-5586-540-0 \\
-\textbf{Assuntos}    & 1. Administração dos serviços de saúde. 2. Administração da produção - Saúde \\
-\textbf{Resumo}      & O capítulo defende que a gestão em saúde deve transcender o lucro e integrar ética, responsabilidade social e ambiental como pilares de sustentabilidade. Propõe um novo paradigma em que o desempenho das organizações seja medido pela coerência entre resultados econômicos e compromisso com a vida e o bem comum. \\
+\textbf{Curso}   		& MBA em Gestão da Saúde \\
+\textbf{Turma}      		& T-01 \\
+\textbf{Pólo}      		& Brasília \\
+\textbf{Disciplina}     	& Governança Corporativa e Compliance \\
+\textbf{Professor}      	& Eduardo Rosa Pedreira \\
+\textbf{Trabalho}  	        & ATIVIDADE 3 - Plano de Ação: Valores Universalizáveis em Saúde (8,00 pontos) \\
+\textbf{Aluno(s)}     		& 1. Catarina Vila; 2. Eduardo Blank; 3. Francisco Robson L. de Moraes; 4. Gustavo M. Mendes de Tarso; 5. Milton Mello. \\
+\textbf{Prazo}     		& 21 de novembro de 2025 \\
+\textbf{Título do trabalho}     & Plano de Ação para Implementação de Valores Universalizáveis em um Hospital Brasileiro \\ 
 \end{tblr}
 \end{tcolorbox}
 \endgroup
 #+end_export
-#+LATEX: \linespread{1.5}\selectfont
-
-ATIVIDADE 3 - Plano de Ação: Valores Universalizáveis em Saúde (8,00 pontos)
-Prazo: 21/11/2025, até 23:59h
-Trabalho em grupo OU individual
-
-Desenvolvam um plano de ação para implementar práticas relacionadas aos valores universalizáveis em uma empresa de saúde brasileira (pode ser real ou fictícia).
-
-O que entregar:
-- Um plano estruturado utilizando a metodologia 5W2H (ou outra metodologia de sua escolha, desde que devidamente justificada).
-
-Requisitos:
-
-- O plano deve ser específico e exequível - evite propostas genéricas ou abstratas
-- Demonstre viabilidade prática: considere recursos, prazos realistas, responsáveis e custos
-- Formato preferencial: Apresentação em PowerPoint (mas outros formatos são aceitos: Word, PDF, etc.)
-- Seja pragmático: queremos ver um plano que possa efetivamente ser implementado
-
-Dica: Pense em uma organização de saúde específica (hospital, clínica, laboratório, operadora) e adapte o plano à realidade deste tipo de instituição.
 
 #+LATEX: \vspace{1cm}
 #+LATEX: \blueunder{0.5\linewidth}
 
+#+LATEX: \linespread{1.5}\selectfont
 
+A incorporação de valores universalizáveis — igualdade, equidade, respeito, honestidade e liberdade — exige que a instituição adote uma lógica de ação concreta, planejada e monitorável, capaz de transformar princípios éticos em práticas operacionais consistentes. Para isso, cada iniciativa deste plano é construída segundo o método 5W2H, que permite explicitar o que será realizado (What), a razão de sua necessidade (Why), o local de execução (Where), o período de implementação (When), os responsáveis diretos (Who), o modo como será conduzida (How) e os custos envolvidos (How much). Esses elementos se entrelaçam à lógica SMART (específico, mensurável, alcançável, relevante e temporal), que transforma cada ação em meta verificável, e aos KPIs que permitem medir o grau real de avanço da cultura ética ao longo do tempo. Assim, em vez de ideias abstratas, o plano se materializa como um conjunto articulado de ações operacionais, com objetivos claros, métricas definidas e monitoramento contínuo, garantindo que os valores universalizáveis permeiem processos administrativos, decisões clínicas e relações humanas em toda a instituição.
+
+A criação do Comitê de Valores Éticos e Sustentabilidade é a primeira ação estruturante, porque define um centro de gravidade capaz de irradiar coerência ética a todas as demais iniciativas. O What consiste em formalizar, por meio de portaria, um colegiado institucional que funcionará como guardião dos valores e mediador de dilemas complexos. O Why deixa claro que, sem uma instância institucionalizada, os valores tendem a se diluir diante da sobrecarga assistencial ou da pressão por decisões rápidas, e os conflitos tendem a ser tratados de forma informal e desigual. O Where, localizado na sede administrativa, reforça o caráter institucional do comitê, assegurando acesso aos documentos oficiais, às equipes estratégicas e à governança. O When — entre o primeiro e o segundo mês — insere o comitê como alicerce inicial do plano, garantindo que as demais ações tenham respaldo técnico e ético desde o início. O Who inclui direção geral, jurídico, enfermagem, corpo clínico, qualidade e RH, compondo uma instância multiprofissional capaz de analisar dilemas sob diferentes perspectivas. O How se traduz em reuniões quinzenais, análise sistemática de casos, produção de atas e fluxos padronizados de deliberação. O How much é relativamente baixo — cerca de R$ 3 mil anuais — o que demonstra a viabilidade financeira da ação. Em termos SMART, o comitê é específico (tem missão clara), mensurável (número de reuniões, tempo de resposta e percentual de recomendações implementadas), alcançável (estrutura leve), relevante (impacto direto sobre a cultura) e temporal (implantação no mês 1–2). Seus KPIs — como meta de 24 reuniões anuais, tempo médio de resposta inferior a 10 dias úteis e implementação acima de 70% das recomendações — não são apenas métricas administrativas, mas indicadores da vitalidade ética da organização, revelando se o comitê se consolidou como instância de referência ou se permanece apenas formalizado no papel.
+
+A revisão do Código de Ética e Conduta representa o segundo eixo e, embora pareça um documento normativo simples, atua como ferramenta estratégica de alinhamento moral e organizacional. O What consiste em reescrever o documento institucional para incorporar valores universalizáveis, exemplos reais de dilemas e orientações aplicáveis ao cotidiano. O Why evidencia que códigos genéricos, comuns em hospitais pequenos, não dão conta de orientar condutas em situações de conflito porque deixam margens interpretativas amplas, produzindo insegurança jurídica e moral. O Where — o setor de Qualidade e Governança Clínica — é estratégico porque reúne especialistas na produção e revisão de documentos institucionais. O When — meses dois a quatro — posiciona a revisão logo após a criação do comitê, permitindo que o novo código dialogue com as deliberações iniciais e com o mapeamento de maiores necessidades. O Who inclui o Comitê de Valores Éticos, o Jurídico e profissionais de qualidade, numa construção coletiva que garante robustez técnica e legitimidade. O How envolve análise comparada de códigos nacionais e internacionais, oficinas de revisão e processos de validação com diversas equipes. O How much — cerca de R$ 5 mil — cobre diagramação, impressão digital e ações de comunicação. Pelo prisma SMART, trata-se de uma ação específica (resultado concreto: novo código), mensurável (100% da força de trabalho deve ser treinada; avaliação mínima de 80% de compreensão), alcançável (baixa complexidade operacional), relevante (atua como bússola institucional) e temporal (entrega definida). Seus KPIs — adesão ao treinamento, compreensão medida por avaliação e revisão anual obrigatória — convertem o código em instrumento vivo, acompanhado e atualizado, evitando que se transforme em norma decorativa.
+
+O Programa Ética no Cuidado amplia o eixo formativo e é uma das ações mais profundas do plano, pois atua diretamente nas competências relacionais, comunicacionais e morais dos profissionais. O What é a criação de um programa permanente de formação ética, que não se limite a palestras esporádicas, mas integre módulos EAD, oficinas, simulações e estudos de caso. O Why é evidente no ambiente assistencial: decisões envolvendo consentimento informado, comunicação de más notícias, conflitos familiares, manejo de objeção de consciência e limites terapêuticos exigem habilidades técnicas, emocionais e éticas que não emergem espontaneamente. O Where — plataforma de educação permanente e salas de formação — assegura acessibilidade e continuidade. O When — meses quatro a doze — acompanha a maturação das demais ações, formando o tecido humano necessário para sustentar a mudança cultural. O Who inclui educadores internos, líderes assistenciais, equipe de educação permanente e representantes do comitê. O How envolve metodologias ativas, cenários simulados, videoaulas e estudos de caso reais. O How much — cerca de R$ 25 mil anuais — é coerente com o porte da instituição e com a dimensão transformadora do programa. Em termos SMART, o programa é específico (conteúdos definidos), mensurável (meta de ≥ 85% de cobertura e pós-testes ≥ 80%), alcançável (recursos já existentes), relevante (impacto direto na qualidade do cuidado) e temporal (implantação do mês quatro ao doze). Os KPIs, especialmente taxa de adesão, desempenho nas avaliações e participação em oficinas, permitem verificar se o conhecimento está se convertendo em prática clínica mais segura e eticamente fundamentada.
+
+A Política Institucional de Equidade no Atendimento incorpora diretamente os valores de justiça e igualdade material. O What é desenvolver fluxos de cuidado e protocolos de classificação que eliminem vieses conscientes e inconscientes. O Why reconhece que desigualdades sociais moldam profundamente o acesso e a experiência dos pacientes, e que instituições de saúde devem atuar como equalizadoras, não como reprodutoras dessas disparidades. O Where — ambulatório, pronto atendimento e internação — concentra áreas de maior impacto sobre acesso, acolhimento e fluxo. O When — a partir do quinto mês — permite que a política seja construída com base no mapeamento inicial de barreiras e injustiças percebidas. O Who inclui direção assistencial, enfermagem, serviço social e comunicação, garantindo olhar interdisciplinar. O How envolve revisão de fluxos, criação de materiais acessíveis, treinamento de equipes e monitoramento contínuo de eventuais disparidades. O How much — cerca de R$ 40 mil — reflete investimentos em comunicação inclusiva e adequações de processos. Em relação ao SMART, a política é específica (criação de novos fluxos e materiais inclusivos), mensurável (tempo médio de atendimento por grupo social; queixas relacionadas à discriminação), alcançável (requer reorganização de práticas, não estruturas), altamente relevante (equidade é valor universal formador do ethos hospitalar) e temporal (implantação definida). Os KPIs — redução de queixas de discriminação em ≥ 20% e diferença máxima de 10% no tempo de atendimento entre grupos — fornecem métricas objetivas para avaliar se a instituição está avançando em justiça distributiva.
+
+O Canal Ético e Espaço Seguro de Fala traduz honestidade e liberdade em mecanismos concretos de transparência. O What é desenvolver e implantar um canal que permita denúncias anônimas, registro de incidentes éticos e relato de situações de discriminação, abuso ou assédio. O Why se ancora na necessidade de criar um ambiente em que colaboradores e pacientes possam relatar problemas sem medo de retaliação, condição indispensável para organizações justas e saudáveis. O Where combina plataforma digital e atendimento telefônico, ampliando o acesso. O When — meses três a seis — garante que o canal esteja ativo logo após a criação do comitê e antes da maior parte das ações formativas. O Who envolve Compliance e TI, responsáveis por garantir sigilo, rastreabilidade e segurança da informação. O How centra-se na contratação de plataforma especializada e na criação de fluxos claros de apuração. O How much — cerca de R$ 18 mil anuais — cobre a manutenção da plataforma. A ação atende plenamente ao SMART: é específica (criação do canal), mensurável (tempo médio de resposta, taxa de resolutividade), alcançável (tecnologia disponível), altamente relevante (proteção da integridade) e temporal (implantação definida). Seus KPIs — resposta inferior a sete dias úteis, resolutividade acima de 85% e satisfação dos denunciantes — são medidores diretos do grau de confiança na instituição.
+
+Os Protocolos de Decisão Ética representam o eixo clínico mais sofisticado, pois tratam das zonas cinzentas da prática médica. O What é produzir diretrizes que orientem decisões complexas relacionadas a fim de vida, escassez de recursos, conflitos familiares, objeções de consciência e limites terapêuticos. O Why é reduzir improvisos que geram insegurança moral, sofrimento das equipes e riscos legais. O Where envolve UTI, emergência e centro cirúrgico, locais onde dilemas aparecem com maior intensidade. O When — meses seis a doze — acompanha a ampliação da maturidade ética institucional. O Who inclui Comitê de Bioética, Direção Médica e Jurídico, assegurando fundamentação ética, técnica e normativa. O How inclui oficinas clínicas, simulações e ajustes baseados em casos reais. O How much — cerca de R$ 10 mil — cobre horas de consultoria e elaboração dos documentos. O critério SMART é plenamente atendido: protocolos são específicos (com orientações claras), mensuráveis (taxa de adesão, redução de conflitos documentados), alcançáveis (baseados em práticas já validadas), relevantes (impacto direto na segurança) e temporais (implantação até o mês doze). Seus KPIs — adesão superior a 80%, redução de conflitos e avaliação positiva pelas equipes — permitem observar se as diretrizes mudaram efetivamente a prática clínica.
+
+O Relatório Anual de Ética, Inclusão e Sustentabilidade, publicado no décimo segundo mês, integra o conjunto de informações produzidas durante todo o plano. O What é consolidar indicadores éticos, dados de equidade, resolutividade do canal ético, participação em capacitações e desempenho dos protocolos. O Why se fundamenta na premissa de que transparência é condição essencial para credibilidade e governança. O Where envolve comunicação institucional e diretoria, que exercem papel-chave na divulgação e interpretação dos resultados. O When — mês doze — tem simbolismo de fechamento do ciclo. O Who inclui comitê, comunicação e controladoria, que combinam análise ética com rigor técnico. O How envolve coleta estruturada de dados, análise crítica e relato técnico. O How much — cerca de R$ 12 mil — cobre diagramação e publicação. Em termos SMART, o relatório é específico (produto final concreto), mensurável (percentual de indicadores consolidados), alcançável (depende de dados já coletados), relevante (fundamental para governança) e temporal (publicação anual). KPIs como a consolidação de 95% dos indicadores e a taxa de melhorias implementadas a partir do relatório demonstram se a instituição está fechando o ciclo de aprendizado e retroalimentando sua própria cultura ética.
+
+Assim, ao longo do texto, percebe-se que cada ação foi desenhada não apenas como um item de um plano, mas como uma engrenagem interligada que articula valores, práticas e resultados concretos. O uso do 5W2H permite clareza e responsabilização, enquanto os critérios SMART garantem coerência e viabilidade. Os KPIs possibilitam monitoramento real e continuidade institucional, assegurando que os valores universalizáveis deixem de ser discursos genéricos e se tornem parâmetros objetivos para decisões cotidianas, relações profissionais e qualidade assistencial. O resultado esperado é a formação de uma cultura ética sólida, consciente e sustentável, capaz de enfrentar dilemas contemporâneos da saúde com maturidade institucional e compromisso humano.
+
+#+BEGIN_SRC plantuml :file fluxograma_valores_smart_kpi_colorido.png :exports none :results silent 
+@startuml
+title Plano de Ação - Valores Universalizáveis (5W2H + SMART + KPIs)
+
+skinparam rectangle {
+  BorderColor #333333
+  FontSize 13
+  BorderRoundCorner 18
+}
+skinparam ArrowColor #2C3E50
+skinparam ArrowThickness 1.5
+skinparam TitleFontSize 18
+
+' Paleta:
+' Cinza neutro: #D9D9D9
+' Azul Ética/Governança: #A7C7E7
+' Verde Formação: #B2D8B2
+' Laranja Equidade: #F7C59F
+' Roxo Integridade/Canal Ético: #D4C2FC
+' Vermelho Bioética: #F5A3A3
+' Azul escuro Relatório Final: #9FB7D4
+
+rectangle "Diagnóstico e alinhamento inicial\nWhat = análise da cultura e riscos éticos\nWhy = identificar prioridades\nWhere = toda a instituição\nWhen = antes do mês 1\nWho = diretoria + qualidade\nHow = entrevistas, revisão documental, dados\nHow much = custo marginal\nSMART = escopo claro + prazo definido\nKPI = relatório entregue" as D #D9D9D9
+
+rectangle "AÇÃO 1 – Comitê de Valores Éticos\nWhat = instituir comitê\nWhy = governança ética\nWhere = sede administrativa\nWhen = meses 1–2\nWho = diretoria, jurídico, RH, qualidade\nHow = portaria + reuniões quinzenais\nHow much = R$ 3.000/ano\nSMART = ação específica e viável\nKPIs = reuniões/ano; tempo resposta; % recomendações" as A1 #A7C7E7
+
+rectangle "AÇÃO 2 – Revisão do Código de Ética\nWhat = atualizar o código\nWhy = reduzir ambiguidades éticas\nWhere = Governança Clínica\nWhen = meses 2–4\nWho = Comitê + Jurídico\nHow = oficinas e análise comparativa\nHow much = R$ 5.000\nSMART = metas claras e impacto direto\nKPIs = % treinados; avaliação ≥ 80%; revisão anual" as A2 #A7C7E7
+
+rectangle "AÇÃO 3 – Programa Ética no Cuidado\nWhat = programa contínuo de formação ética\nWhy = apoiar decisões morais diárias\nWhere = EAD + treinamento\nWhen = meses 4–12\nWho = Educação Permanente\nHow = módulos, oficinas e simulações\nHow much = R$ 25.000/ano\nSMART = metas de cobertura e aprendizagem\nKPIs = ≥ 85% capacitados; pós-teste ≥ 80%" as A3 #B2D8B2
+
+rectangle "AÇÃO 4 – Política de Equidade\nWhat = protocolos equitativos\nWhy = reduzir desigualdades no cuidado\nWhere = PA, ambulatório, internação\nWhen = mês 5 em diante\nWho = direção assistencial + serviço social\nHow = fluxos revisados + materiais acessíveis\nHow much = R$ 40.000\nSMART = metas factíveis e relevantes\nKPIs = tempo atendimento < 10%; queixas ↓ 20%" as A4 #F7C59F
+
+rectangle "AÇÃO 5 – Canal Ético e Espaço Seguro\nWhat = canal anônimo de denúncias\nWhy = proteger denunciantes\nWhere = plataforma + telefone\nWhen = meses 3–6\nWho = Compliance + TI\nHow = solução especializada\nHow much = R$ 18.000/ano\nSMART = alto impacto + prazo definido\nKPIs = resposta < 7 dias; resolutividade > 85%" as A5 #D4C2FC
+
+rectangle "AÇÃO 6 – Protocolos de Decisão Ética\nWhat = diretrizes de dilemas clínicos\nWhy = evitar improviso\nWhere = UTI, emergência, centro cirúrgico\nWhen = meses 6–12\nWho = Bioética + Direção Médica\nHow = oficinas + validação multiprofissional\nHow much = R$ 10.000\nSMART = aplicabilidade alta\nKPIs = adesão > 80%; conflitos reduzidos" as A6 #F5A3A3
+
+rectangle "AÇÃO 7 – Relatório Anual\nWhat = consolidação dos indicadores\nWhy = transparência e governança\nWhere = diretoria + comunicação\nWhen = mês 12\nWho = comitê + controladoria\nHow = coleta + análise + publicação\nHow much = R$ 12.000\nSMART = periodicidade fixa\nKPIs = > 95% indicadores consolidados" as A7 #9FB7D4
+
+D  --> A1
+A1 --> A2
+A2 --> A3
+A3 --> A4
+A4 --> A5
+A5 --> A6
+A6 --> A7
+
+@enduml
+#+END_SRC
+
+#+ATTR_LATEX: :width 0.47\textwidth
+#+ATTR_ORG: :width 10px
+[[file:fluxograma_valores_smart_kpi_colorido.png]]
+
+* Cronograma – Plano de Ação (Gráfico de Gantt)
+
+#+NAME: gantt-plano-valores
+#+BEGIN_SRC plantuml :file gantt-plano-valores.png  :cmdline -charset UTF-8
+@startgantt
+printscale monthly
+Project starts 2026-01-01
+
+' ============================
+' Definição das tarefas (eixos)
+' ============================
+[Estrutura de Governança Clínica e Ética (Comitê)]       as [T1] requires 60 days
+[Revisão do Código de Ética e Conduta]                  as [T2] requires 90 days
+[Implantação do Canal Ético e Espaço Seguro de Fala]    as [T3] requires 120 days
+[Programa "Ética no Cuidado"]                           as [T4] requires 270 days
+[Política Institucional de Equidade no Atendimento]     as [T5] requires 240 days
+[Protocolos de Decisão Ética e Casos Complexos]         as [T6] requires 210 days
+[Relatório Anual de Ética, Inclusão e Sustentabilidade] as [T7] requires 30 days
+
+' ============================
+' Inícios usando D+N
+' (aprox. em linha com o texto: meses 1–12)
+' ============================
+
+[T1] starts D+0      
+[T2] starts D+60     
+[T3] starts D+90     
+[T4] starts D+90     
+[T5] starts D+120    
+[T6] starts D+150    
+[T7] starts D+330    
+
+' ============================
+' Dependências visuais (setas)
+' ============================
+
+[T1] -> [T2]
+[T1] -> [T3]
+[T2] -> [T4]
+[T3] -> [T5]
+[T3] -> [T6]
+[T6] -> [T7]
+
+@endgantt
+#+END_SRC
 
 #+NAME: estatisticas-texto
-#+begin_src python :results value raw :exports results :var fname=(buffer-file-name)
-  import pathlib
-  import re
-  import subprocess
+#+begin_src python :results value raw :exports none :var fname=(buffer-file-name) :var linha_ini=74 :var linha_fim=90
+import pathlib
+import re
+import subprocess
 
-  path = pathlib.Path(fname)
-  text = path.read_text(encoding="utf-8")
-  lines = text.splitlines()
+path = pathlib.Path(fname)
+text = path.read_text(encoding="utf-8")
+lines = text.splitlines()
 
-  # 1) Achar o ÚLTIMO bloco:
-  #    #+LATEX: \vspace{1cm}
-  #    #+LATEX: \blueunder{...}
-  start_idx = None
-  i = 0
-  while i < len(lines):
-      if lines[i].strip() == "#+LATEX: \vspace{1cm}":
-          j = i + 1
-          while j < len(lines) and "\blueunder" not in lines[j]:
-              j += 1
-          if j < len(lines):
-              start_idx = j + 1  # texto começa na linha seguinte ao blueunder
-              i = j + 1
-              continue
-      i += 1
+total_file_lines = len(lines)
 
-  if start_idx is None or start_idx >= len(lines):
-      return "* Estatísticas do texto\nProblema: marcador não encontrado.\n"
+# --- 1) Intervalo de linhas em coordenadas do Org-mode ---
 
-  body_lines = lines[start_idx:]
+# Garantir limites razoáveis
+if linha_ini < 1:
+    linha_ini = 1
 
-  # 2) Limpar: ignorar diretivas, blocos de código e estatísticas antigas
-  clean = []
-  skip_stats = False
-  inside_code = False
+if linha_fim <= 0 or linha_fim > total_file_lines:
+    linha_fim = total_file_lines
 
-  for l in body_lines:
-      ls = l.lstrip()
-      if ls.startswith("* Estatísticas do texto"):
-          skip_stats = True
-          continue
-      if skip_stats:
-          continue
+# Slicing Python é [ini:fim), por isso -1 no início
+slice_lines = lines[linha_ini - 1:linha_fim]
 
-      if ls.lower().startswith("#+begin_src"):
-          inside_code = True
-          continue
-      if ls.lower().startswith("#+end_src"):
-          inside_code = False
-          continue
-      if inside_code:
-          continue
+# Contagens de linha diretamente no Org (do jeito que você enxerga)
+total_intervalo = len(slice_lines)
+linhas_nao_vazias = sum(1 for l in slice_lines if l.strip())
 
-      if ls.startswith("#+"):
-          continue
+# --- 2) Limpeza opcional para estatísticas de texto ---
+# (para não contar diretivas, blocos de código etc em PALAVRAS/PARÁGRAFOS)
 
-      clean.append(l)
+clean = []
+skip_stats = False
+inside_code = False
 
-  body = "\n".join(clean)
+for l in slice_lines:
+    ls = l.lstrip()
+    # Pular bloco anterior de estatísticas
+    if ls.startswith("* Estatísticas do texto"):
+        skip_stats = True
+        continue
+    if skip_stats:
+        continue
 
-  # 3) Contar palavras, linhas (Org) e parágrafos
-  words = len(re.findall(r"\S+", body))
-  lines_count = sum(1 for l in body.splitlines() if l.strip())
+    # Pular blocos de código
+    if ls.lower().startswith("#+begin_src"):
+        inside_code = True
+        continue
+    if ls.lower().startswith("#+end_src"):
+        inside_code = False
+        continue
+    if inside_code:
+        continue
 
-  paras = 0
-  in_para = False
-  for l in body.splitlines():
-      if l.strip():
-          if not in_para:
-              paras += 1
-              in_para = True
-      else:
-          in_para = False
+    # Pular diretivas #+ (opcional, só texto mesmo)
+    if ls.startswith("#+"):
+        continue
 
-  # 4) Linhas no PDF via script externo (FGV)
-  pdf = path.with_suffix(".pdf")
-  pdf_lines = None
-  try:
-      cmd = [
-          "/home/gustavodetarso/.local/bin/conta_linhas_pdf.sh",  # ajuste se usar outro caminho
-          str(pdf),
-          "--keep-blank",
-          "--preset",
-          "fgv",
-      ]
-      out = subprocess.check_output(cmd, text=True)
-      for line in out.splitlines():
-          line = line.strip()
-          if line.startswith("TOTAL:"):
-              parts = line.split()
-              pdf_lines = int(parts[-1])
-              break
-  except Exception:
-      pdf_lines = None
+    clean.append(l)
 
-  # 5) Saída em formato de lista Org (um item por linha no PDF)
-  res = "* Estatísticas do texto\n"
-  res += f"- Palavras (Org): {words}\n"
-  if pdf_lines is not None:
-      res += f"- Linhas (PDF, FGV): {pdf_lines}\n"
-  else:
-      res += "- Linhas (PDF, FGV): erro ao chamar o script\n"
-  res += f"- Parágrafos (Org): {paras}\n"
+body = "\n".join(clean)
 
-  return res
-  #+end_src
+# --- 3) Contar palavras e parágrafos no INTERVALO escolhido ---
+
+words = len(re.findall(r"\S+", body))
+
+paras = 0
+in_para = False
+for l in body.splitlines():
+    if l.strip():
+        if not in_para:
+            paras += 1
+            in_para = True
+    else:
+        in_para = False
+
+# --- 4) Linhas no PDF via script externo (FGV) ---
+
+pdf = path.with_suffix(".pdf")
+pdf_lines = None
+try:
+    cmd = [
+        "/home/gustavodetarso/.local/bin/count_pdf_lines",  # ajuste se usar outro caminho
+        str(pdf),
+        "--keep-blank",
+        "--preset",
+        "fgv",
+    ]
+    out = subprocess.check_output(cmd, text=True)
+    for line in out.splitlines():
+        line = line.strip()
+        if line.startswith("TOTAL:"):
+            parts = line.split()
+            pdf_lines = int(parts[-1])
+            break
+except Exception:
+    pdf_lines = None
+
+# --- 5) Saída em formato Org ---
+
+res = "* Estatísticas do texto\n"
+res += f"- Intervalo no arquivo Org: linhas {linha_ini} a {linha_fim} de {total_file_lines}\n"
+res += f"- Linhas no intervalo do arquivo Org (todas): {total_intervalo}\n"
+res += f"- Linhas no intervalo do arquivo Org (não vazias): {linhas_nao_vazias}\n"
+res += f"- Palavras (no intervalo, texto limpo): {words}\n"
+res += f"- Parágrafos (no intervalo, texto limpo): {paras}\n"
+if pdf_lines is not None:
+    res += f"- Linhas (PDF, FGV): {pdf_lines}\n"
+else:
+    res += "- Linhas (PDF, FGV): erro ao chamar o script\n"
+
+return res
+#+end_src
 
