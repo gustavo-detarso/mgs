@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="594.54pt" height="648.51pt" viewBox="0 0 594.54 648.51" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2025-12-21T18:41:44.543342</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648.51 
+L 594.54 648.51 
+L 594.54 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 26.854615 142.612 
+L 567.685385 142.612 
+L 567.685385 23.57 
+L 26.854615 23.57 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #bbdefb; stroke: #1e88e5; stroke-width: 2"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 26.854615 142.612 
+L 57.839712 142.612 
+L 57.839712 23.57 
+L 26.854615 23.57 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #1e88e5; opacity: 0.88"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 26.854615 266.274 
+L 567.685385 266.274 
+L 567.685385 147.232 
+L 26.854615 147.232 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #c8e6c9; stroke: #43a047; stroke-width: 2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 26.854615 266.274 
+L 57.839712 266.274 
+L 57.839712 147.232 
+L 26.854615 147.232 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #43a047; opacity: 0.88"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 26.854615 389.936 
+L 567.685385 389.936 
+L 567.685385 270.894 
+L 26.854615 270.894 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #ffe0b2; stroke: #fb8c00; stroke-width: 2"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 26.854615 389.936 
+L 57.839712 389.936 
+L 57.839712 270.894 
+L 26.854615 270.894 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #fb8c00; opacity: 0.88"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 26.854615 513.598 
+L 567.685385 513.598 
+L 567.685385 394.556 
+L 26.854615 394.556 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #ffcdd2; stroke: #e53935; stroke-width: 2"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 26.854615 513.598 
+L 57.839712 513.598 
+L 57.839712 394.556 
+L 26.854615 394.556 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #e53935; opacity: 0.88"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 26.854615 637.26 
+L 567.685385 637.26 
+L 567.685385 518.218 
+L 26.854615 518.218 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #e1bee7; stroke: #8e24aa; stroke-width: 2"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 26.854615 637.26 
+L 57.839712 637.26 
+L 57.839712 518.218 
+L 26.854615 518.218 
+z
+" clip-path="url(#p495746f1aa)" style="fill: #8e24aa; opacity: 0.88"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Liberation Sans'; text-anchor: middle" x="297.27" y="17.177422" transform="rotate(-0 297.27 17.177422)">Matriz SMART</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #ffffff" x="42.347163" y="87.745688" transform="rotate(-0 42.347163 87.745688)">S</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="37.6365" transform="rotate(-0 66.290192 37.6365)">Específico</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="52.333344" transform="rotate(-0 66.290192 52.333344)">• Linha de cuidado como porta de entrada estruturada e previsível (UAC → H. Brasília AC).</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="73.003813" transform="rotate(-0 66.290192 73.003813)">• Gestão integral do percurso: captação, estratificação, documentação e encaminhamento.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="93.793813" transform="rotate(-0 66.290192 93.793813)">• Jornada do paciente com etapas claras, registros consistentes e monitoramento do funil.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="114.703344" transform="rotate(-0 66.290192 114.703344)">• Foco em cuidado longitudinal, sem lógica de pronto-atendimento, com resolutividade planejada.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #ffffff" x="42.347163" y="211.407688" transform="rotate(-0 42.347163 211.407688)">M</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="161.2005" transform="rotate(-0 66.290192 161.2005)">Mensurável</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="175.875813" transform="rotate(-0 66.290192 175.875813)">• +40% pacientes moderada/grave identificados e acompanhados em linha (12 meses).</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="196.665813" transform="rotate(-0 66.290192 196.665813)">• 85% adesão a consultas/retornos, com busca ativa e resgate de faltosos.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="217.575344" transform="rotate(-0 66.290192 217.575344)">• 100% triagem pré-bariátrica documentada em elegíveis (IMC ≥35+comorb./≥40).</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="238.365344" transform="rotate(-0 66.290192 238.365344)">• Metas cirúrgicas condicionadas: 70% encaminhados (12m) e 60% cirurgia (18–24m).</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #ffffff" x="42.347163" y="335.069688" transform="rotate(-0 42.347163 335.069688)">A</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="284.9605" transform="rotate(-0 66.290192 284.9605)">Atingível</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="299.657344" transform="rotate(-0 66.290192 299.657344)">• Exequível por desenho operacional: captação por critério, triagem padronizada e governança.</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="320.327813" transform="rotate(-0 66.290192 320.327813)">• Não depende de aumento indiscriminado de demanda; depende de organização e registro.</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="341.237344" transform="rotate(-0 66.290192 341.237344)">• Conversão cirúrgica deliberadamente condicionada à pactuação e capacidade/regulação.</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="362.027344" transform="rotate(-0 66.290192 362.027344)">• Posicionamento (porta de entrada confiável) independe de cirurgias imediatas.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #ffffff" x="42.347163" y="458.731688" transform="rotate(-0 42.347163 458.731688)">R</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="408.5245" transform="rotate(-0 66.290192 408.5245)">Relevante</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="423.233281" transform="rotate(-0 66.290192 423.233281)">• Qualifica manejo de condição crônica: reduz variabilidade, atrasos e peregrinação do paciente.</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="444.109344" transform="rotate(-0 66.290192 444.109344)">• Consolida a UAC como referência regional baseada em método e previsibilidade.</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="464.899344" transform="rotate(-0 66.290192 464.899344)">• Gera demanda clínica/exames/procedimentos de forma qualificada para a rede parceira.</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="485.569813" transform="rotate(-0 66.290192 485.569813)">• Sustenta ética assistencial e rastreabilidade da decisão clínica.</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #ffffff" x="42.347163" y="582.393688" transform="rotate(-0 42.347163 582.393688)">T</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 11.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="532.1865" transform="rotate(-0 66.290192 532.1865)">Temporal</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="546.981344" transform="rotate(-0 66.290192 546.981344)">• Até 30 dias: equipe capacitada e protocolo/checklist validados.</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="567.771344" transform="rotate(-0 66.290192 567.771344)">• Até 90 dias: fluxo completo implantado e painel mínimo com primeiros relatórios.</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="588.561344" transform="rotate(-0 66.290192 588.561344)">• 6º mês: revisão por dados, ajustes operacionais e avaliação do funil clínico-cirúrgico.</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10.2px; font-family: 'Liberation Sans'; text-anchor: start" x="66.290192" y="609.351344" transform="rotate(-0 66.290192 609.351344)">• 12º mês: avaliação global e atualização de metas; maturação cirúrgica em 18–24 meses.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p495746f1aa">
+   <rect x="4.32" y="4.32" width="585.9" height="639.87"/>
+  </clipPath>
+ </defs>
+</svg>
