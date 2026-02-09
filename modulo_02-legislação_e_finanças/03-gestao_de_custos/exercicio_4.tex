@@ -1,0 +1,163 @@
+% Created 2026-02-09 seg 15:06
+% Intended LaTeX compiler: lualatex
+\documentclass[12pt]{article}
+\usepackage[a4paper,left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{fgv-header}
+\author{Gustavo M. Mendes de Tarso}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Gustavo M. Mendes de Tarso},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.5.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\begingroup
+\linespread{1}\selectfont
+\begin{tcolorbox}[title=Ficha Técnica,
+  colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tblr}{rowsep=1pt,stretch=1, rows={t}, colspec={Q[l,2.8cm] X[l]}}
+\textbf{Curso}   		& MBA em Gestão da Saúde \\
+\textbf{Turma}      		& T-01 \\
+\textbf{Pólo}      		& Brasília \\
+\textbf{Disciplina}     	& Gestão de Custos \\
+\textbf{Professor}      	& Waldir Jorge Ladeira dos Santos \\
+\textbf{Trabalho}  	        & Resolução de exercício da apostila \\
+\textbf{Aluno(s)}     		& Gustavo M. Mendes de Tarso. \\
+\textbf{Prazo}     		& 09 de fevereiro de 2026 \\
+\textbf{Título do trabalho}     & Gestão de Custos do Hospital Alfa \\ 
+\end{tblr}
+\end{tcolorbox}
+\endgroup
+
+\FGVNewPage
+
+\section{Exercício 4 — Hospital Alfa (Novembro)}
+\label{sec:org9754076}
+
+\subsection{Premissas do enunciado}
+\label{sec:org618c7c5}
+\begin{itemize}
+\item Receita (serviços prestados) no período: \textbf{R\$ 2.100.000}.
+\item Cenário (b): \textbf{vendas +10\%}.
+\item Custos e despesas variáveis variam na mesma proporção das vendas.
+\item Custos e despesas fixas permanecem inalteradas.
+\end{itemize}
+
+\subsection{Classificação dos itens (Custo/Despesa e Variável/Fixo)}
+\label{sec:org0c48861}
+
+\begin{table}[htbp]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{%
+>{\raggedright\arraybackslash}X
+>{\raggedleft\arraybackslash}m{0.14\textwidth}
+>{\centering\arraybackslash}m{0.18\textwidth}
+>{\centering\arraybackslash}m{0.18\textwidth}}
+\toprule
+Itens & Valor (R\$) & DRE Contábil/Financeira & DRE Gerencial/Interna \\
+\midrule
+Depreciação dos equipamentos hospitalares & 80.000 & Custo & Fixo \\
+Custo de expedição interna da farmácia & 25.000 & Custo & Variável \\
+Material hospitalar diretamente aplicado & 350.000 & Custo & Variável \\
+Mão-de-obra direta (médico, enfermeiro...) & 400.000 & Custo & Variável \\
+Propaganda contratada de forma variável & 58.000 & Despesa (Comercial) & Variável \\
+Funcionários da cozinha para os enfermos & 57.000 & Custo & Fixo \\
+Seguro contra-incêndio do hospital (área fim) & 15.000 & Custo & Fixo \\
+Imposto sobre propriedade do hospital (área fim) & 25.100 & Custo & Fixo \\
+Energia, água e esgoto dos procedimentos & 59.500 & Custo & Variável \\
+Ordenados do pessoal de Marketing & 25.500 & Despesa (Comercial) & Fixo \\
+Despesas administrativas & 50.000 & Despesa (Administrativa) & Fixo \\
+Aluguel do hospital (área fim) & 90.000 & Custo & Fixo \\
+\bottomrule
+\end{tabularx}
+\normalsize
+\end{table}
+
+\subsection{DRE — Abordagem Funcional / Absorção}
+\label{sec:org733ee7a}
+
+\begin{table}[htbp]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{%
+>{\raggedright\arraybackslash}X
+>{\raggedleft\arraybackslash}m{0.20\textwidth}
+>{\raggedleft\arraybackslash}m{0.20\textwidth}}
+\toprule
+DRE Abordagem Funcional (Absorção) & a) & b) (vendas +10\%) \\
+\midrule
+Receita de venda & 2.100.000 & 2.310.000 \\
+(--) Custos dos serviços prestados & 1.101.600 & 1.185.050 \\
+\midrule
+\textbf{Lucro bruto} & \textbf{998.400} & \textbf{1.124.950} \\
+\midrule
+(--) Despesas operacionais (total) & 133.500 & 139.300 \\
+\hspace{2mm} Administrativas & 50.000 & 50.000 \\
+\hspace{2mm} Comerciais & 83.500 & 89.300 \\
+\midrule
+\textbf{Lucro operacional líquido} & \textbf{864.900} & \textbf{985.650} \\
+\bottomrule
+\end{tabularx}
+\normalsize
+\end{table}
+
+\subsection{DRE — Abordagem de Contribuição / Variável}
+\label{sec:org21eee2e}
+
+\begin{table}[htbp]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{%
+>{\raggedright\arraybackslash}X
+>{\raggedleft\arraybackslash}m{0.20\textwidth}
+>{\raggedleft\arraybackslash}m{0.20\textwidth}}
+\toprule
+DRE Abordagem de Contribuição (Variável) & a) & b) (vendas +10\%) \\
+\midrule
+Receita de venda & 2.100.000 & 2.310.000 \\
+(--) Custos variáveis & 834.500 & 917.950 \\
+(--) Despesas variáveis & 58.000 & 63.800 \\
+\midrule
+\textbf{Margem de contribuição} & \textbf{1.207.500} & \textbf{1.328.250} \\
+\midrule
+(--) Custos fixos & 267.100 & 267.100 \\
+(--) Despesas fixas & 75.500 & 75.500 \\
+\midrule
+\textbf{Lucro operacional líquido} & \textbf{864.900} & \textbf{985.650} \\
+\bottomrule
+\end{tabularx}
+\normalsize
+\end{table}
+
+\subsection{Qual demonstrativo usar no item (b) e por quê?}
+\label{sec:org16a58fb}
+A DRE mais adequada para o item (b) é a \textbf{DRE pela Abordagem de Contribuição (Variável)}, pois o
+enunciado estabelece explicitamente que custos e despesas variáveis variam na mesma proporção
+das vendas e que custos e despesas fixas permanecem inalteradas. Como esse demonstrativo
+separa de forma objetiva os componentes variáveis dos fixos, ele permite mensurar diretamente
+o impacto do aumento de 10\% na receita sobre a margem de contribuição e, por consequência,
+sobre o lucro operacional, sendo portanto o modelo gerencial mais apropriado para a simulação
+custo-volume-lucro.
+\end{document}

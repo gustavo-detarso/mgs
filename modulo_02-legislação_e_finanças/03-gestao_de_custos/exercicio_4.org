@@ -1,0 +1,143 @@
+#+OPTIONS: toc:nil num:t H:3 ^:nil
+#+STARTUP: overview
+#+PROPERTY: header-args:python :exports results
+
+#+LATEX_HEADER: \usepackage{fgv-header}
+
+#+begin_export latex
+\begingroup
+\linespread{1}\selectfont
+\begin{tcolorbox}[title=Ficha Técnica,
+  colback=gray!5,colframe=gray!40,boxrule=0.4pt,sharp corners]
+\begin{tblr}{rowsep=1pt,stretch=1, rows={t}, colspec={Q[l,2.8cm] X[l]}}
+\textbf{Curso}   		& MBA em Gestão da Saúde \\
+\textbf{Turma}      		& T-01 \\
+\textbf{Pólo}      		& Brasília \\
+\textbf{Disciplina}     	& Gestão de Custos \\
+\textbf{Professor}      	& Waldir Jorge Ladeira dos Santos \\
+\textbf{Trabalho}  	        & Resolução de exercício da apostila \\
+\textbf{Aluno(s)}     		& Gustavo M. Mendes de Tarso. \\
+\textbf{Prazo}     		& 09 de fevereiro de 2026 \\
+\textbf{Título do trabalho}     & Gestão de Custos do Hospital Alfa \\ 
+\end{tblr}
+\end{tcolorbox}
+\endgroup
+#+end_export
+
+#+LATEX: \FGVNewPage
+
+* Exercício 4 — Hospital Alfa (Novembro)
+
+** Premissas do enunciado
+- Receita (serviços prestados) no período: *R$ 2.100.000*.
+- Cenário (b): *vendas +10%*.
+- Custos e despesas variáveis variam na mesma proporção das vendas.
+- Custos e despesas fixas permanecem inalteradas.
+
+** Classificação dos itens (Custo/Despesa e Variável/Fixo)
+
+#+NAME: tab:ex4_classificacao_itens
+#+CAPTION: Exercício 4 — Classificação dos itens (Custo/Despesa e Variável/Fixo)
+#+ATTR_LATEX: :center nil :float nil
+#+LATEX: \begin{table}[htbp]
+#+LATEX: \centering
+#+LATEX: \scriptsize
+#+LATEX: \setlength{\tabcolsep}{3pt}
+#+LATEX: \renewcommand{\arraystretch}{1.15}
+#+LATEX: \begin{tabularx}{\textwidth}{%
+#+LATEX:   >{\raggedright\arraybackslash}X
+#+LATEX:   >{\raggedleft\arraybackslash}m{0.14\textwidth}
+#+LATEX:   >{\centering\arraybackslash}m{0.18\textwidth}
+#+LATEX:   >{\centering\arraybackslash}m{0.18\textwidth}}
+#+LATEX: \toprule
+#+LATEX: Itens & Valor (R\$) & DRE Contábil/Financeira & DRE Gerencial/Interna \\
+#+LATEX: \midrule
+#+LATEX: Depreciação dos equipamentos hospitalares & 80.000 & Custo & Fixo \\
+#+LATEX: Custo de expedição interna da farmácia & 25.000 & Custo & Variável \\
+#+LATEX: Material hospitalar diretamente aplicado & 350.000 & Custo & Variável \\
+#+LATEX: Mão-de-obra direta (médico, enfermeiro...) & 400.000 & Custo & Variável \\
+#+LATEX: Propaganda contratada de forma variável & 58.000 & Despesa (Comercial) & Variável \\
+#+LATEX: Funcionários da cozinha para os enfermos & 57.000 & Custo & Fixo \\
+#+LATEX: Seguro contra-incêndio do hospital (área fim) & 15.000 & Custo & Fixo \\
+#+LATEX: Imposto sobre propriedade do hospital (área fim) & 25.100 & Custo & Fixo \\
+#+LATEX: Energia, água e esgoto dos procedimentos & 59.500 & Custo & Variável \\
+#+LATEX: Ordenados do pessoal de Marketing & 25.500 & Despesa (Comercial) & Fixo \\
+#+LATEX: Despesas administrativas & 50.000 & Despesa (Administrativa) & Fixo \\
+#+LATEX: Aluguel do hospital (área fim) & 90.000 & Custo & Fixo \\
+#+LATEX: \bottomrule
+#+LATEX: \end{tabularx}
+#+LATEX: \normalsize
+#+LATEX: \end{table}
+
+** DRE — Abordagem Funcional / Absorção
+
+#+NAME: tab:ex4_dre_absorcao
+#+CAPTION: Exercício 4 — DRE pela Abordagem Funcional (Absorção)
+#+ATTR_LATEX: :center nil :float nil
+#+LATEX: \begin{table}[htbp]
+#+LATEX: \centering
+#+LATEX: \scriptsize
+#+LATEX: \setlength{\tabcolsep}{3pt}
+#+LATEX: \renewcommand{\arraystretch}{1.15}
+#+LATEX: \begin{tabularx}{\textwidth}{%
+#+LATEX:   >{\raggedright\arraybackslash}X
+#+LATEX:   >{\raggedleft\arraybackslash}m{0.20\textwidth}
+#+LATEX:   >{\raggedleft\arraybackslash}m{0.20\textwidth}}
+#+LATEX: \toprule
+#+LATEX: DRE Abordagem Funcional (Absorção) & a) & b) (vendas +10\%) \\
+#+LATEX: \midrule
+#+LATEX: Receita de venda & 2.100.000 & 2.310.000 \\
+#+LATEX: (--) Custos dos serviços prestados & 1.101.600 & 1.185.050 \\
+#+LATEX: \midrule
+#+LATEX: \textbf{Lucro bruto} & \textbf{998.400} & \textbf{1.124.950} \\
+#+LATEX: \midrule
+#+LATEX: (--) Despesas operacionais (total) & 133.500 & 139.300 \\
+#+LATEX: \hspace{2mm} Administrativas & 50.000 & 50.000 \\
+#+LATEX: \hspace{2mm} Comerciais & 83.500 & 89.300 \\
+#+LATEX: \midrule
+#+LATEX: \textbf{Lucro operacional líquido} & \textbf{864.900} & \textbf{985.650} \\
+#+LATEX: \bottomrule
+#+LATEX: \end{tabularx}
+#+LATEX: \normalsize
+#+LATEX: \end{table}
+
+** DRE — Abordagem de Contribuição / Variável
+
+#+NAME: tab:ex4_dre_contribuicao
+#+CAPTION: Exercício 4 — DRE pela Abordagem de Contribuição (Variável)
+#+ATTR_LATEX: :center nil :float nil
+#+LATEX: \begin{table}[htbp]
+#+LATEX: \centering
+#+LATEX: \scriptsize
+#+LATEX: \setlength{\tabcolsep}{3pt}
+#+LATEX: \renewcommand{\arraystretch}{1.15}
+#+LATEX: \begin{tabularx}{\textwidth}{%
+#+LATEX:   >{\raggedright\arraybackslash}X
+#+LATEX:   >{\raggedleft\arraybackslash}m{0.20\textwidth}
+#+LATEX:   >{\raggedleft\arraybackslash}m{0.20\textwidth}}
+#+LATEX: \toprule
+#+LATEX: DRE Abordagem de Contribuição (Variável) & a) & b) (vendas +10\%) \\
+#+LATEX: \midrule
+#+LATEX: Receita de venda & 2.100.000 & 2.310.000 \\
+#+LATEX: (--) Custos variáveis & 834.500 & 917.950 \\
+#+LATEX: (--) Despesas variáveis & 58.000 & 63.800 \\
+#+LATEX: \midrule
+#+LATEX: \textbf{Margem de contribuição} & \textbf{1.207.500} & \textbf{1.328.250} \\
+#+LATEX: \midrule
+#+LATEX: (--) Custos fixos & 267.100 & 267.100 \\
+#+LATEX: (--) Despesas fixas & 75.500 & 75.500 \\
+#+LATEX: \midrule
+#+LATEX: \textbf{Lucro operacional líquido} & \textbf{864.900} & \textbf{985.650} \\
+#+LATEX: \bottomrule
+#+LATEX: \end{tabularx}
+#+LATEX: \normalsize
+#+LATEX: \end{table}
+
+** Qual demonstrativo usar no item (b) e por quê?
+A DRE mais adequada para o item (b) é a *DRE pela Abordagem de Contribuição (Variável)*, pois o
+enunciado estabelece explicitamente que custos e despesas variáveis variam na mesma proporção
+das vendas e que custos e despesas fixas permanecem inalteradas. Como esse demonstrativo
+separa de forma objetiva os componentes variáveis dos fixos, ele permite mensurar diretamente
+o impacto do aumento de 10% na receita sobre a margem de contribuição e, por consequência,
+sobre o lucro operacional, sendo portanto o modelo gerencial mais apropriado para a simulação
+custo-volume-lucro.
