@@ -1,10 +1,31 @@
-#+OPTIONS: toc:nil num:t H:3 ^:nil
-#+STARTUP: overview
-#+PROPERTY: header-args:python :exports results
+% Created 2026-02-23 seg 11:38
+% Intended LaTeX compiler: lualatex
+\documentclass[12pt]{article}
+\usepackage[a4paper,left=3cm,top=3cm,right=2cm,bottom=2cm]{geometry}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{fgv-header}
+\author{Gustavo M. Mendes de Tarso}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Gustavo M. Mendes de Tarso},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.5.5)}, 
+ pdflang={English}}
+\begin{document}
 
-#+LATEX_HEADER: \usepackage{fgv-header}
-
-#+begin_export latex
 \begingroup
 \linespread{1}\selectfont
 \begin{tcolorbox}[title=Ficha Técnica,
@@ -22,18 +43,21 @@
 \end{tblr}
 \end{tcolorbox}
 \endgroup
-#+end_export
 
-#+LATEX: \FGVNewPage
+\FGVNewPage
 
-* Exercício 10 — Consultório
+\section{Exercício 10 — Consultório}
+\label{sec:org07afaaa}
 
-** Enunciado
+\subsection{Enunciado}
+\label{sec:org7263d3e}
 Um consultório atendeu \(Q = 2.640\) pacientes durante um exercício (12 pacientes em média por dia). O valor da consulta é \(P = \text{R\$}\,250{,}00\). Os gastos variáveis (MOD + materiais/insumos aplicados + energia) somaram \(\text{R\$}\,528.000{,}00\). Os fixos foram \(\text{R\$}\,11.847{,}58\) por mês e \(\text{R\$}\,142.171{,}00\) por ano.
 
-** DREx (anual) — valor do enunciado e unitário
+\subsection{DREx (anual) — valor do enunciado e unitário}
+\label{sec:orgeddc213}
 
-*** Cálculos unitários
+\subsubsection{Cálculos unitários}
+\label{sec:orgbfbd660}
 \[
 CV_{unit} = \frac{528.000}{2.640} = 200{,}00\ \text{R\$/consulta}
 \]
@@ -42,34 +66,33 @@ CV_{unit} = \frac{528.000}{2.640} = 200{,}00\ \text{R\$/consulta}
 MC_{unit} = P - CV_{unit} = 250 - 200 = 50{,}00\ \text{R\$/consulta}
 \]
 
-#+NAME: tab:ex10_drex_consultorio
-#+CAPTION: Exercício 10 — DREx do consultório (total e unitário)
-#+ATTR_LATEX: :center nil :float nil
-#+LATEX: \begin{table}[htbp]
-#+LATEX: \centering
-#+LATEX: \scriptsize
-#+LATEX: \setlength{\tabcolsep}{3pt}
-#+LATEX: \renewcommand{\arraystretch}{1.15}
-#+LATEX: \begin{tabularx}{\textwidth}{%
-#+LATEX:   >{\raggedright\arraybackslash}X
-#+LATEX:   >{\raggedleft\arraybackslash}m{0.22\textwidth}
-#+LATEX:   >{\raggedleft\arraybackslash}m{0.18\textwidth}}
-#+LATEX: \toprule
-#+LATEX: DREx & Valor do enunciado (R\$) & \$ unitário (R\$/consulta) \\
-#+LATEX: \midrule
-#+LATEX: Receita & 660.000,00 & 250,00 \\
-#+LATEX: (-) Variáveis & 528.000,00 & 200,00 \\
-#+LATEX: (=) Margem de Contribuição (MC) & 132.000,00 & 50,00 \\
-#+LATEX: (-) Custos/Despesas Fixas & 142.171,00 & 53,85 \\
-#+LATEX: (=) Resultado Operacional Líquido & -10.171,00 & -3,85 \\
-#+LATEX: \bottomrule
-#+LATEX: \end{tabularx}
-#+LATEX: \normalsize
-#+LATEX: \end{table}
+\begin{table}[htbp]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{%
+>{\raggedright\arraybackslash}X
+>{\raggedleft\arraybackslash}m{0.22\textwidth}
+>{\raggedleft\arraybackslash}m{0.18\textwidth}}
+\toprule
+DREx & Valor do enunciado (R\$) & \$ unitário (R\$/consulta) \\
+\midrule
+Receita & 660.000,00 & 250,00 \\
+(-) Variáveis & 528.000,00 & 200,00 \\
+(=) Margem de Contribuição (MC) & 132.000,00 & 50,00 \\
+(-) Custos/Despesas Fixas & 142.171,00 & 53,85 \\
+(=) Resultado Operacional Líquido & -10.171,00 & -3,85 \\
+\bottomrule
+\end{tabularx}
+\normalsize
+\end{table}
 
-** Ponto de equilíbrio
+\subsection{Ponto de equilíbrio}
+\label{sec:org65a3f0d}
 
-*** Fórmulas-base
+\subsubsection{Fórmulas-base}
+\label{sec:org00e873f}
 \[
 PE_{qtd} = \frac{Fixos}{MC_{unit}}
 \]
@@ -84,7 +107,8 @@ MC\% = \frac{MC_{unit}}{P}
 MC\% = \frac{50}{250} = 0{,}20
 \]
 
-*** Por mês
+\subsubsection{Por mês}
+\label{sec:orge34f9ef}
 \[
 PE_{\text{consultas/mês}} = \frac{11.847{,}58}{50} = 236{,}95 \approx 237\ \text{consultas/mês}
 \]
@@ -93,7 +117,8 @@ PE_{\text{consultas/mês}} = \frac{11.847{,}58}{50} = 236{,}95 \approx 237\ \tex
 PE_{\text{faturamento/mês}} = \frac{11.847{,}58}{0{,}20} = 59.237{,}90\ \text{R\$}
 \]
 
-*** Por ano
+\subsubsection{Por ano}
+\label{sec:orged63b64}
 \[
 PE_{\text{consultas/ano}} = \frac{142.171{,}00}{50} = 2.843{,}42 \approx 2.844\ \text{consultas/ano}
 \]
@@ -102,26 +127,32 @@ PE_{\text{consultas/ano}} = \frac{142.171{,}00}{50} = 2.843{,}42 \approx 2.844\ 
 PE_{\text{faturamento/ano}} = \frac{142.171{,}00}{0{,}20} = 710.855{,}00\ \text{R\$}
 \]
 
-** Consultas por dia no ponto de equilíbrio
+\subsection{Consultas por dia no ponto de equilíbrio}
+\label{sec:org222f8b9}
 
-*** Dias de atendimento no ano
+\subsubsection{Dias de atendimento no ano}
+\label{sec:org51aca01}
 \[
 D = 20\ \text{dias/mês} \times 11\ \text{meses} = 220\ \text{dias}
 \]
 
-*** Ponto de equilíbrio em consultas/dia
+\subsubsection{Ponto de equilíbrio em consultas/dia}
+\label{sec:orgc963d8a}
 \[
 PE_{\text{consultas/dia}} = \frac{2.843{,}42}{220} = 12{,}92 \approx 13\ \text{consultas/dia}
 \]
 
-** Meta de lucro anual de \(\text{R\$\,200.000,00}\)
+\subsection{Meta de lucro anual de \(\text{R\$\,200.000,00}\)}
+\label{sec:org727e215}
 
-*** Fórmula
+\subsubsection{Fórmula}
+\label{sec:org4a6f2f5}
 \[
 Q_{\text{meta}} = \frac{Fixos + Lucro}{MC_{unit}}
 \]
 
-*** Cálculo
+\subsubsection{Cálculo}
+\label{sec:orgfb98572}
 \[
 Q_{\text{meta}} = \frac{142.171 + 200.000}{50} = 6.843{,}42 \approx 6.844\ \text{consultas/ano}
 \]
@@ -130,16 +161,19 @@ Q_{\text{meta}} = \frac{142.171 + 200.000}{50} = 6.843{,}42 \approx 6.844\ \text
 R_{\text{meta}} = Q_{\text{meta}} \times P = 6.843{,}42 \times 250 = 1.710.855{,}00\ \text{R\$}
 \]
 
-** Margem de segurança
+\subsection{Margem de segurança}
+\label{sec:orgf950294}
 
-*** Fórmulas
+\subsubsection{Fórmulas}
+\label{sec:orgef6bafe}
 \[
 MS_{qtd} = Q_{\text{real}} - PE_{qtd}
 \qquad;\qquad
 MS\% = \frac{Q_{\text{real}} - PE_{qtd}}{Q_{\text{real}}}
 \]
 
-*** Cálculos
+\subsubsection{Cálculos}
+\label{sec:org256349f}
 \[
 MS_{qtd} = 2.640 - 2.843{,}42 = -203{,}42\ \text{consultas}
 \]
@@ -148,5 +182,7 @@ MS_{qtd} = 2.640 - 2.843{,}42 = -203{,}42\ \text{consultas}
 MS\% = \frac{-203{,}42}{2.640} = -0{,}0771 \approx -7{,}71\%
 \]
 
-*** Interpretação
+\subsubsection{Interpretação}
+\label{sec:org01aa507}
 Não houve margem de segurança: faltaram cerca de \(203\) consultas (\(\approx 8\%\)) para atingir o ponto de equilíbrio anual.
+\end{document}
